@@ -94,4 +94,10 @@ class ResourceContracts(unittest.TestCase):
  def test_unsigned_manifest_rejected(self):
   self.approve();dump(self.r/'config/public-assets.yml',[])
   with self.assertRaises(AssertionError):validate(self.r)
+ def test_internal_maintenance_documents_cannot_be_published(self):
+  from prepublish import check_source_path
+  for name in ['AGENTS.md','CODEX_SPEC.md','README.md','docs/GITHUB_SETUP.md','docs/nested/guide.md','tests/fixtures/README.md']:
+   with self.subTest(path=name):
+    with self.assertRaises(AssertionError):check_source_path(name)
+  for name in ['data/profile.yml','scripts/common.py','public/papers/paper-gwm-hfn.pdf']:check_source_path(name)
 if __name__=='__main__':unittest.main(verbosity=2)

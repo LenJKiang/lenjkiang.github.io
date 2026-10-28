@@ -26,6 +26,8 @@ jobs:
         run: mkdir -p workspace/working workspace/reports workspace/review
       - name: Validate public metadata
         run: python scripts/validate_content.py
+      - name: Exclude local maintenance documents from the repository
+        run: python scripts/prepublish.py --staged
       - name: Resolve actual Pages path and build
         env:
           REPOSITORY: ${{ github.repository }}

@@ -1,5 +1,11 @@
 # Private, generated and local-only state
 /workspace/
+# Internal instructions and maintenance manuals remain local.
+/AGENTS.md
+/CODEX_SPEC.md
+/README.md
+/docs/
+/tests/fixtures/README.md
 /dist/
 /website/zh/
 /website/en/

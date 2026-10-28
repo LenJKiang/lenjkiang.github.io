@@ -2,6 +2,11 @@
 import argparse, re, subprocess, sys
 from common import ROOT, validate, load, sha
 
+def check_source_path(name):
+ normalized=name.replace('\\','/');parts=normalized.split('/')
+ assert normalized not in {'AGENTS.md','CODEX_SPEC.md','README.md','tests/fixtures/README.md'} and not normalized.startswith('docs/'),'Local-only maintenance document: '+normalized
+ assert not any(p in {'workspace','dist','.venv','__pycache__','.quarto','.env'} for p in parts),'Private/generated file staged: '+normalized
+
 def check_staged():
  validate()
  result=subprocess.run(['git','diff','--cached','--name-only','--diff-filter=ACMR','-z'],cwd=ROOT,capture_output=True,check=True)
@@ -9,7 +14,7 @@ def check_staged():
  allowed={a['public_path']:a for a in load(ROOT/'data/resources.yml')}
  for name in files:
   normalized=name.replace('\\','/');parts=normalized.split('/')
-  assert not any(p in {'workspace','dist','.venv','__pycache__','.quarto','.env'} for p in parts),'Private/generated file staged: '+normalized
+  check_source_path(name)
   assert not re.search(r'(^|/)(\.env[^/]*|credentials[^/]*|id_rsa|.*\.(pem|key|p12))$',normalized,re.I),'Possible secret staged'
   blob=subprocess.check_output(['git','show',':'+name],cwd=ROOT)
   if normalized.startswith('public/'):
@@ -20,16 +25,15 @@ def check_staged():
    text=blob.decode('utf-8',errors='ignore')
    assert not re.search(r'(?:ghp_[A-Za-z0-9]{30,}|-----BEGIN (?:RSA |OPENSSH )?PRIVATE KEY-----)',text),'Possible credential in staged content'
  all_changes=subprocess.check_output(['git','diff','--cached','--name-only','-z'],cwd=ROOT)
+ paths=subprocess.check_output(['git','ls-files','-z'],cwd=ROOT).decode('utf-8').split('\0')
+ for name in filter(None,paths):check_source_path(name)
  # Validate the complete staged tree, not only the working copy.
  # Snapshot consists only of Git-tracked bytes and must stand alone without workspace/.
  if all_changes:
   import tempfile, pathlib
   with tempfile.TemporaryDirectory(prefix='staged-check-',dir=ROOT/'workspace/working') as tmp:
    dest=pathlib.Path(tmp)
-   paths=subprocess.check_output(['git','ls-files','-z'],cwd=ROOT).decode('utf-8').split('\0')
    for name in filter(None,paths):
-    parts=name.replace('\\','/').split('/')
-    assert not any(p in {'workspace','dist','.venv','.env'} for p in parts),'Private tree entry staged'
     target=dest/name;target.parent.mkdir(parents=True,exist_ok=True);target.write_bytes(subprocess.check_output(['git','show',':'+name],cwd=ROOT))
    validate(dest)
  print('PASS staged guard:',len(files),'staged changes; no changes were staged by this command')
