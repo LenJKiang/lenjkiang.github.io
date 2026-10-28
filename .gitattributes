@@ -1,0 +1,9 @@
+# Preserve approved asset bytes across Windows and Linux checkouts.
+*.pdf binary
+*.pptx binary
+*.jpg binary
+*.jpeg binary
+*.png binary
+*.webp binary
+*.gif binary
+*.zip binary
