@@ -17,7 +17,10 @@ def build(base=None,canonical_origin=None):
  env=local_env();logs=[]
  for lang in ['zh','en']:
   command=[exe,'render','.']
-  for key in ['TMP','TEMP','TMPDIR']:env[key]='../../workspace/tmp'
+  # Windows uses a relative path to avoid Pandoc's ANSI conversion of Chinese
+  # paths. On Linux, nested pages change cwd, so retain local_env's absolute path.
+  if os.name=='nt':
+   for key in ['TMP','TEMP','TMPDIR']:env[key]='../../workspace/tmp'
   proc=subprocess.run(command,cwd=ROOT/'website'/lang,env=env,stdout=subprocess.PIPE,stderr=subprocess.STDOUT,text=True,encoding='utf-8',errors='replace')
   (ROOT/f'workspace/reports/quarto-{lang}.log').write_text(proc.stdout,encoding='utf-8');logs.append(proc.stdout)
   if proc.returncode:raise RuntimeError(f'Quarto {lang} failed; see workspace/reports/quarto-{lang}.log\n'+proc.stdout[-3500:])
