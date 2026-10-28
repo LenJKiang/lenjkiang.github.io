@@ -81,6 +81,33 @@ class ContentPages(unittest.TestCase):
   text=self.read('teaching/probability.html',True)
   for term in ['economics and management','Long Yonghong','random vectors','Chapter 3']:
    self.assertIn(term,text)
+ def test_approved_resources_are_accessible_in_both_languages(self):
+  from common import sha
+  from validate_site import Page
+  resources=load(ROOT/'data/resources.yml')
+  for a in resources:
+   self.assertEqual(sha(ROOT/'dist'/a['public_path']),a['sha256'])
+   for en in [False,True]:
+    if a['resource_type']=='paper':
+     text=self.read('publications/'+a['related_publication_or_course']+'.html',en)
+     self.assertIn('application/pdf',text)
+     self.assertIn(a.get('license_url',''),text)
+    elif a['resource_type']=='image':text=self.read('index.html',en)
+    else:text=self.read('teaching/'+a['related_publication_or_course']+'.html',en)
+    self.assertIn('/'+a['public_path'],[url for url,tag,attr in Page(text).links])
+ def test_course_resources_have_titles_chapters_and_actual_language(self):
+  import html
+  resources={a['resource_id']:a for a in load(ROOT/'data/resources.yml')}
+  for c in load(ROOT/'data/courses.yml'):
+   for en in [False,True]:
+    text=html.unescape(self.read('teaching/'+c['course_id']+'.html',en));lang='en' if en else 'zh'
+    for rid in c['resources']:
+     a=resources[rid]
+     if a.get('title_'+lang):self.assertIn(a['title_'+lang],text)
+     if a.get('chapter_id'):
+      chapter=next(ch for ch in c['chapters'] if ch['id']==a['chapter_id'])
+      self.assertIn(chapter['title_'+lang],text)
+     if a['language']=='zh':self.assertIn('Chinese' if en else '中文',text)
  def test_team_members_and_all_student_achievements(self):
   profile=load(ROOT/'data/profile.yml');academic=load(ROOT/'data/academic.yml')
   import html

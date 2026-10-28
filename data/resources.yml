@@ -1,1 +1,168 @@
-[]
+- resource_id: paper-gwm-hfn
+  resource_type: paper
+  related_publication_or_course: gwm-hfn
+  sha256: f8ea12171ae5b20c3a542de0f0a5511efebf5a396f0f6cb41fc3cf7540643eef
+  format: pdf
+  size: 5511463
+  language: en
+  version: version_of_record
+  license: CC BY-NC-ND 4.0
+  permission_status: approved
+  approval_reference: paper-gwm-hfn-f8ea12171ae5
+  public_path: public/papers/paper-gwm-hfn.pdf
+  last_updated: '2026-10-28'
+  license_url: https://creativecommons.org/licenses/by-nc-nd/4.0/
+- resource_id: paper-brain-age-sngp
+  resource_type: paper
+  related_publication_or_course: brain-age-sngp
+  sha256: 75d13271e624563d79cb1132d23a6e00095266581eb2ce88cee4e323121bbc3c
+  format: pdf
+  size: 4627090
+  language: en
+  version: version_of_record
+  license: CC BY-NC-ND 4.0
+  permission_status: approved
+  approval_reference: paper-brain-age-sngp-75d13271e624
+  public_path: public/papers/paper-brain-age-sngp.pdf
+  last_updated: '2026-10-28'
+  license_url: https://creativecommons.org/licenses/by-nc-nd/4.0/
+- resource_id: profile-photo
+  resource_type: image
+  related_publication_or_course: ze-qiang-linli
+  sha256: 3bff9d40b15faa907222576f4861a4a5d7a76c8c25b90c3232ed3101abc7ea3c
+  format: jpg
+  size: 2127656
+  language: unknown
+  version: unknown
+  license: User-authorized distribution on this personal academic website; no general
+    reuse licence granted.
+  permission_status: approved
+  approval_reference: profile-photo-3bff9d40b15f
+  public_path: public/images/profile-photo.jpg
+  last_updated: '2026-10-28'
+- resource_id: probability-1-1
+  resource_type: teaching
+  related_publication_or_course: probability
+  sha256: d1f881ec7642c50a8b663095227c65f09d3b112c506eec6a591393b4897e15ff
+  format: pdf
+  size: 766226
+  language: zh
+  version: unknown
+  license: User-authorized distribution on this personal academic website; no general
+    reuse licence granted.
+  permission_status: approved
+  approval_reference: probability-1-1-d1f881ec7642
+  public_path: public/teaching/probability-1-1.pdf
+  last_updated: '2026-10-28'
+  chapter_id: chapter-01
+  title_zh: 随机事件
+  title_en: Random events
+  section: '1.1'
+- resource_id: probability-1-2
+  resource_type: teaching
+  related_publication_or_course: probability
+  sha256: 5a192566dfc2ef1896d2ae0b99233a6a71d36a8de4e495e4dd7e7900d2fb8c0b
+  format: pdf
+  size: 471986
+  language: zh
+  version: unknown
+  license: User-authorized distribution on this personal academic website; no general
+    reuse licence granted.
+  permission_status: approved
+  approval_reference: probability-1-2-5a192566dfc2
+  public_path: public/teaching/probability-1-2.pdf
+  last_updated: '2026-10-28'
+  chapter_id: chapter-01
+  title_zh: 随机事件的概率
+  title_en: Probability of random events
+  section: '1.2'
+- resource_id: probability-1-3
+  resource_type: teaching
+  related_publication_or_course: probability
+  sha256: a4a9a3c49234037618c5b584b716c01a81ec548cee925246ad723d9107151215
+  format: pdf
+  size: 643174
+  language: zh
+  version: unknown
+  license: User-authorized distribution on this personal academic website; no general
+    reuse licence granted.
+  permission_status: approved
+  approval_reference: probability-1-3-a4a9a3c49234
+  public_path: public/teaching/probability-1-3.pdf
+  last_updated: '2026-10-28'
+  chapter_id: chapter-01
+  title_zh: 古典概型和几何概型
+  title_en: Classical and geometric probability
+  section: '1.3'
+- resource_id: probability-1-4
+  resource_type: teaching
+  related_publication_or_course: probability
+  sha256: 1eb867479766da5212d59bbdf850f26894902d8eee0e3f487b784d020460e77b
+  format: pdf
+  size: 742768
+  language: zh
+  version: unknown
+  license: User-authorized distribution on this personal academic website; no general
+    reuse licence granted.
+  permission_status: approved
+  approval_reference: probability-1-4-1eb867479766
+  public_path: public/teaching/probability-1-4.pdf
+  last_updated: '2026-10-28'
+  chapter_id: chapter-01
+  title_zh: 条件概率
+  title_en: Conditional probability
+  section: '1.4'
+- resource_id: probability-1-5
+  resource_type: teaching
+  related_publication_or_course: probability
+  sha256: a8a99a610e76ab59b0f1bcb93b51ae218a4d90a35ec448ecd1a97ffa096550af
+  format: pdf
+  size: 1195156
+  language: zh
+  version: unknown
+  license: User-authorized distribution on this personal academic website; no general
+    reuse licence granted.
+  permission_status: approved
+  approval_reference: probability-1-5-a8a99a610e76
+  public_path: public/teaching/probability-1-5.pdf
+  last_updated: '2026-10-28'
+  chapter_id: chapter-01
+  title_zh: 事件的独立性
+  title_en: Independence of events
+  section: '1.5'
+- resource_id: probability-2-1-part-1
+  resource_type: teaching
+  related_publication_or_course: probability
+  sha256: c569440f02047e5008b165b060bd4f7c71d0b1929c29e70cd5a4e16102cb4bc4
+  format: pdf
+  size: 796520
+  language: zh
+  version: unknown
+  license: User-authorized distribution on this personal academic website; no general
+    reuse licence granted.
+  permission_status: approved
+  approval_reference: probability-2-1-part-1-c569440f0204
+  public_path: public/teaching/probability-2-1-part-1.pdf
+  last_updated: '2026-10-28'
+  chapter_id: chapter-02
+  title_zh: 随机变量及其分布（上）
+  title_en: Random variables and their distributions (Part 1)
+  section: '2.1'
+- resource_id: probability-2-1-part-2
+  resource_type: teaching
+  related_publication_or_course: probability
+  sha256: 8d9a0ee07386f6b0a2223bfc00d53bd75dd817729f016c4568c81c3776073531
+  format: pdf
+  size: 677448
+  language: zh
+  version: unknown
+  license: User-authorized distribution on this personal academic website; no general
+    reuse licence granted.
+  permission_status: approved
+  approval_reference: probability-2-1-part-2-8d9a0ee07386
+  public_path: public/teaching/probability-2-1-part-2.pdf
+  last_updated: '2026-10-28'
+  chapter_id: chapter-02
+  title_zh: 随机变量及其分布（下）
+  title_en: Random variables and their distributions (Part 2)
+  section: '2.1'

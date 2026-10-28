@@ -85,11 +85,24 @@ def generate(d, cfg, root=ROOT):
         def publication_list():
             return '<div class="publication-list">'+''.join(paper_card(p) for p in sorted(papers,key=publication_sort_key))+'</div>'
         def course_resources(c):
-            rows = ''
+            chapters = {ch['id']:ch for ch in c['chapters']}
+            groups = {}
             for rid in c['resources']:
-                a = assets[rid]; u = public_url(a['public_path'])
-                rows += f'<tr><td>{esc(a.get("chapter_id",rid))}</td><td>{a["format"].upper()}</td><td>{esc(a["language"])}</td><td><a href="{u}">{txt("阅读","Read")}</a> · <a href="{u}" download>{txt("下载","Download")}</a></td></tr>'
-            content = '<table><thead><tr>'+''.join('<th>'+t+'</th>' for t in [txt('章节 / 资源','Chapter / resource'),txt('格式','Format'),txt('语言','Language'),txt('访问','Access')])+'</tr></thead><tbody>'+rows+'</tbody></table>' if rows else f'<p class="empty-state">{txt("课件陆续更新。","Course materials will be added here.")}</p>'
+                a = assets[rid]
+                groups.setdefault(a.get('chapter_id',''),[]).append(a)
+            tables = []
+            for chapter_id, group in groups.items():
+                rows = ''
+                for a in group:
+                    u = public_url(a['public_path'])
+                    title = a.get('title_'+lang,a['resource_id'])
+                    label = (a.get('section','')+' '+title).strip()
+                    language = {'zh':txt('中文','Chinese'),'en':txt('英文','English')}.get(a['language'],a['language'])
+                    rows += f'<tr><td>{esc(label)}</td><td>{a["format"].upper()}</td><td>{esc(language)}</td><td><a href="{u}">{txt("阅读","Read")}</a> · <a href="{u}" download>{txt("下载","Download")}</a></td></tr>'
+                chapter = chapters.get(chapter_id)
+                caption = '<caption>'+esc(val(chapter,'title'))+'</caption>' if chapter else ''
+                tables.append(f'<table data-chapter="{esc(chapter_id)}">'+caption+'<thead><tr>'+''.join('<th>'+t+'</th>' for t in [txt('小节 / 资源','Section / resource'),txt('格式','Format'),txt('语言','Language'),txt('访问','Access')])+'</tr></thead><tbody>'+rows+'</tbody></table>')
+            content = ''.join(tables) if tables else f'<p class="empty-state">{txt("课件陆续更新。","Course materials will be added here.")}</p>'
             return f'<div class="course-resources" data-course="{c["course_id"]}">{content}</div>'
         def course_intro(c):
             s = f'<p>{esc(val(c,"description"))}</p>'
@@ -117,8 +130,10 @@ def generate(d, cfg, root=ROOT):
             external = f'<a href="{esc(p["publisher_url"])}">Publisher ↗</a> · ' if p.get('publisher_url') and not p['doi'] else ''
             viewer = f'<object class="pdf-reader" data="{public_url(p["pdf_public_path"])}" type="application/pdf" aria-label="PDF"><a href="{public_url(p["pdf_public_path"])}">PDF</a></object>' if p.get('pdf_public_path') else ''
             abstract = '<p>'+esc(p.get('summary_'+lang))+'</p>' if p.get('summary_'+lang) else ''
+            asset = next((a for a in assets.values() if a['public_path']==p.get('pdf_public_path')),None)
+            license_link = f'<p class="pdf-license"><a href="{esc(asset["license_url"])}">{esc(asset["license"])}</a></p>' if asset and asset.get('license_url') else ''
             body = f'<p class="eyebrow">{p["year"]} / {esc(p["journal"])}</p><p class="authors">{esc("; ".join(p["authors"]))}</p>{abstract}<div class="actions">{doi}{external}{pdf_links(p)}</div>{viewer}'
-            write('publications/'+p['id'],p['title'],p['title'],body+link('research.html#publications',txt('← 返回发表论文','← Back to publications')))
+            write('publications/'+p['id'],p['title'],p['title'],body+license_link+link('research.html#publications',txt('← 返回发表论文','← Back to publications')))
 
         teaching = '<p class="lead">'+esc(profile.get('teaching_overview_'+lang) or txt('课程与教学资料。','Courses and teaching materials.'))+'</p>'
         teaching += project_section('teaching')+f'<section id="courses"><h2>{txt("课程与课件","Courses and materials")}</h2><div class="course-grid">'

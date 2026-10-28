@@ -18,8 +18,15 @@
   - id: chapter-03
     title_zh: 第三章 随机向量
     title_en: 'Chapter 3: Random vectors'
-  resources: []
-  publication_status: metadata_only
+  resources:
+  - probability-1-1
+  - probability-1-2
+  - probability-1-3
+  - probability-1-4
+  - probability-1-5
+  - probability-2-1-part-1
+  - probability-2-1-part-2
+  publication_status: published
   teaching_record: 2022–2026 秋
   verified_source: https://stxy.gdufs.edu.cn/info/1683/4359.htm
   verified_date: '2026-10-26'

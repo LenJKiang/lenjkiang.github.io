@@ -1,6 +1,6 @@
 # GitHub 仓库与后续准备
 
-仓库：https://github.com/LenJKiang/lenjkiang.github.io.git 。2026-10-28已验证所有者为LenJKiang，仓库为公开空仓库，当前账号有管理和写入权限。用户已授权推送或部署，本地已连接origin，构建配置使用正式网址。
+仓库：https://github.com/LenJKiang/lenjkiang.github.io.git 。2026-10-28已验证所有者为LenJKiang，当前账号有管理和写入权限。用户已授权推送、部署及同步照片、论文和课件；本地已连接origin，Pages使用GitHub Actions，正式网址为https://lenjkiang.github.io/ 。仅发布已通过版本、许可及哈希审核的资源。
 
 未来用户站地址为 https://lenjkiang.github.io/ ，使用根路径 `/`。本地预览仍使用 `python scripts/preview.py --local-resources --port 8001`。
 

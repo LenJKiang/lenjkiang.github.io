@@ -75,9 +75,9 @@
   research_category: joint-networks
   publication_type: journal-article
   selected: true
-  pdf_version: unknown
-  pdf_permission_status: external_link_only
-  pdf_public_path: null
+  pdf_version: version_of_record
+  pdf_permission_status: approved
+  pdf_public_path: public/papers/paper-gwm-hfn.pdf
   verified_source:
   - https://www.nature.com/articles/s42003-025-09231-0
   - Owner-confirmed publication list, 2026-10-26
@@ -108,9 +108,9 @@
   research_category: brain-applications
   publication_type: journal-article
   selected: true
-  pdf_version: unknown
-  pdf_permission_status: external_link_only
-  pdf_public_path: null
+  pdf_version: version_of_record
+  pdf_permission_status: approved
+  pdf_public_path: public/papers/paper-brain-age-sngp.pdf
   verified_source:
   - https://stxy.gdufs.edu.cn/info/1683/4359.htm
   - Published article PDF supplied by owner; title and DOI checked, 2026-10-27

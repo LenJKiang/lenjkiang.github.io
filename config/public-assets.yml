@@ -1,1 +1,92 @@
-[]
+- resource_id: paper-gwm-hfn
+  sha256: f8ea12171ae5b20c3a542de0f0a5511efebf5a396f0f6cb41fc3cf7540643eef
+  public_path: public/papers/paper-gwm-hfn.pdf
+  approved_by: Ze-Qiang Linli
+  approval_reference: paper-gwm-hfn-f8ea12171ae5
+  evidence: 'User instruction on 2026-10-28: deploy the personal photo, paper PDFs
+    and course PDFs on this personal academic website. Unmodified Version of Record;
+    CC BY-NC-ND 4.0 is stated inside the PDF. Original publication: https://doi.org/10.1038/s42003-025-09231-0'
+  scope: website-public-distribution
+  approved_date: '2026-10-28'
+- resource_id: paper-brain-age-sngp
+  sha256: 75d13271e624563d79cb1132d23a6e00095266581eb2ce88cee4e323121bbc3c
+  public_path: public/papers/paper-brain-age-sngp.pdf
+  approved_by: Ze-Qiang Linli
+  approval_reference: paper-brain-age-sngp-75d13271e624
+  evidence: 'User instruction on 2026-10-28: deploy the personal photo, paper PDFs
+    and course PDFs on this personal academic website. Unmodified Version of Record;
+    CC BY-NC-ND 4.0 is stated inside the PDF. Original publication: https://doi.org/10.1016/j.neuroimage.2025.121184'
+  scope: website-public-distribution
+  approved_date: '2026-10-28'
+- resource_id: profile-photo
+  sha256: 3bff9d40b15faa907222576f4861a4a5d7a76c8c25b90c3232ed3101abc7ea3c
+  public_path: public/images/profile-photo.jpg
+  approved_by: Ze-Qiang Linli
+  approval_reference: profile-photo-3bff9d40b15f
+  evidence: 'User instruction on 2026-10-28: deploy the personal photo, paper PDFs
+    and course PDFs on this personal academic website.'
+  scope: website-public-distribution
+  approved_date: '2026-10-28'
+- resource_id: probability-1-1
+  sha256: d1f881ec7642c50a8b663095227c65f09d3b112c506eec6a591393b4897e15ff
+  public_path: public/teaching/probability-1-1.pdf
+  approved_by: Ze-Qiang Linli
+  approval_reference: probability-1-1-d1f881ec7642
+  evidence: 'User instruction on 2026-10-28: deploy the personal photo, paper PDFs
+    and course PDFs on this personal academic website.'
+  scope: website-public-distribution
+  approved_date: '2026-10-28'
+- resource_id: probability-1-2
+  sha256: 5a192566dfc2ef1896d2ae0b99233a6a71d36a8de4e495e4dd7e7900d2fb8c0b
+  public_path: public/teaching/probability-1-2.pdf
+  approved_by: Ze-Qiang Linli
+  approval_reference: probability-1-2-5a192566dfc2
+  evidence: 'User instruction on 2026-10-28: deploy the personal photo, paper PDFs
+    and course PDFs on this personal academic website.'
+  scope: website-public-distribution
+  approved_date: '2026-10-28'
+- resource_id: probability-1-3
+  sha256: a4a9a3c49234037618c5b584b716c01a81ec548cee925246ad723d9107151215
+  public_path: public/teaching/probability-1-3.pdf
+  approved_by: Ze-Qiang Linli
+  approval_reference: probability-1-3-a4a9a3c49234
+  evidence: 'User instruction on 2026-10-28: deploy the personal photo, paper PDFs
+    and course PDFs on this personal academic website.'
+  scope: website-public-distribution
+  approved_date: '2026-10-28'
+- resource_id: probability-1-4
+  sha256: 1eb867479766da5212d59bbdf850f26894902d8eee0e3f487b784d020460e77b
+  public_path: public/teaching/probability-1-4.pdf
+  approved_by: Ze-Qiang Linli
+  approval_reference: probability-1-4-1eb867479766
+  evidence: 'User instruction on 2026-10-28: deploy the personal photo, paper PDFs
+    and course PDFs on this personal academic website.'
+  scope: website-public-distribution
+  approved_date: '2026-10-28'
+- resource_id: probability-1-5
+  sha256: a8a99a610e76ab59b0f1bcb93b51ae218a4d90a35ec448ecd1a97ffa096550af
+  public_path: public/teaching/probability-1-5.pdf
+  approved_by: Ze-Qiang Linli
+  approval_reference: probability-1-5-a8a99a610e76
+  evidence: 'User instruction on 2026-10-28: deploy the personal photo, paper PDFs
+    and course PDFs on this personal academic website.'
+  scope: website-public-distribution
+  approved_date: '2026-10-28'
+- resource_id: probability-2-1-part-1
+  sha256: c569440f02047e5008b165b060bd4f7c71d0b1929c29e70cd5a4e16102cb4bc4
+  public_path: public/teaching/probability-2-1-part-1.pdf
+  approved_by: Ze-Qiang Linli
+  approval_reference: probability-2-1-part-1-c569440f0204
+  evidence: 'User instruction on 2026-10-28: deploy the personal photo, paper PDFs
+    and course PDFs on this personal academic website.'
+  scope: website-public-distribution
+  approved_date: '2026-10-28'
+- resource_id: probability-2-1-part-2
+  sha256: 8d9a0ee07386f6b0a2223bfc00d53bd75dd817729f016c4568c81c3776073531
+  public_path: public/teaching/probability-2-1-part-2.pdf
+  approved_by: Ze-Qiang Linli
+  approval_reference: probability-2-1-part-2-8d9a0ee07386
+  evidence: 'User instruction on 2026-10-28: deploy the personal photo, paper PDFs
+    and course PDFs on this personal academic website.'
+  scope: website-public-distribution
+  approved_date: '2026-10-28'

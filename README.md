@@ -17,7 +17,7 @@ python scripts/preview.py --local-resources --port 8001
 
 `--local-resources` 会在私人工作区生成并预览：个人照片、20篇论文 PDF（另两篇按本人要求仅展示发表信息）、概率论第一章5份和第二章2份 PDF；教学总览和课程详情均可访问课件。PPT/PPTX 不进入网站。预览内容位于 `workspace/preview-site/`，带 noindex，与可部署的 `dist/` 分开。此开关仅供本机测试，不记录公开传播批准。两篇中文论文无需PDF，不显示下载或索取入口，也不列为待补PDF；其DOI尚未核实，不生成虚构链接。其余20篇已从所供论文核对DOI。
 
-普通 `python scripts/preview.py` 预览 `dist/`，其中只含已核验的元数据和获准公开的资源；当前没有公开批准的二进制资源。不要用它判断本地测试资料是否已经接入。
+普通 `python scripts/preview.py` 预览 `dist/`，其中只含已核验的元数据和获准公开的资源。2026-10-28用户授权同步部署照片、论文及课件；当前公开清单包含个人照片、7份概率论PDF和2篇明确采用CC BY-NC-ND 4.0的论文PDF。其余18份论文的现有出版社版本尚缺公开托管依据，继续提供DOI及索取入口，待补作者接受稿或具体许可。两篇本人指定无需PDF的中文论文不在这18份中。
 
 ## 日常维护
 
@@ -57,6 +57,6 @@ python scripts/prepublish.py --staged
 
 `main`上的推送会触发 `.github/workflows/pages.yml`：验证数据、生成双语页面、构建和测试后部署通过白名单检查的`dist/`；Pull Request仅构建和测试。GitHub Pages发布来源设为GitHub Actions。实际首次发布结果以GitHub Actions运行状态和网站访问验证为准。
 
-每次发布前仍需检查源码暂存树、PDF分享许可、照片和教学资料公开范围。首次发布只含网页内容与已有明确公开批准的资源；当前资源白名单为空，因此私人预览中的照片和27份PDF不会上传。项目Git钩子只做检查，不会自动暂存或提交。
+每次发布前仍需检查源码暂存树、PDF分享许可、照片和教学资料公开范围。`data/resources.yml`和`config/public-assets.yml`保存当前10个文件的哈希和审批依据；公开照片和PDF位于`public/`。私人预览中的其余18份论文PDF及全部PPT/PPTX保留在`workspace/`。项目Git钩子只做检查，不会自动暂存或提交。
 
 本次变更与测试汇总：`workspace/reports/revision_v04.md`。V0.2、V0.3和初次实施报告保留为历史记录。长期规则见 AGENTS.md；首次规格见 CODEX_SPEC.md。
