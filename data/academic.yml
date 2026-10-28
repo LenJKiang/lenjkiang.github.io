@@ -1,0 +1,402 @@
+projects:
+- id: moe-language
+  title_zh: 二语习得及习得时间与大脑白质功能网络的关联分析
+  title_en: Second-language acquisition, acquisition timing and white matter functional
+    networks
+  verified_source: Owner-provided CV dated 2026-10-11; project list dated 2026-10-26
+  verified_date: '2026-10-26'
+  kind: research
+  role: principal_investigator
+  program_zh: 教育部人文社会科学研究青年基金
+  project_number: 24YJCZH164
+  period: 2024.09–2027.12
+  status: active
+  status_as_of: '2026-10-26'
+  program_en: Ministry of Education Humanities and Social Sciences Youth Fund
+- id: gd-smoking
+  title_zh: 基于脑功能连接组大数据探索吸烟行为的大脑动力学机制
+  title_en: Brain dynamics of smoking behavior using large-scale functional connectomics
+  verified_source: Owner-provided CV dated 2026-10-11; project list dated 2026-10-26
+  verified_date: '2026-10-26'
+  kind: research
+  role: principal_investigator
+  program_zh: 广东省哲学社会科学规划项目
+  project_number: GD26YXL07
+  period: 2026.05–2029.06
+  status: active
+  status_as_of: '2026-10-26'
+  program_en: Guangdong Philosophy and Social Sciences Planning Program
+- id: gd-language
+  title_zh: 基于多模态脑影像的二语习得的脑白质功能网络模式
+  title_en: White matter functional network patterns in second-language acquisition
+    using multimodal neuroimaging
+  verified_source: Owner-provided CV dated 2026-10-11; project list dated 2026-10-26
+  verified_date: '2026-10-26'
+  kind: research
+  role: principal_investigator
+  program_zh: 广东省普通高校特色创新项目
+  project_number: 2024KTSCX178
+  period: 2024.08–2027.07
+  status: active
+  status_as_of: '2026-10-26'
+  program_en: Guangdong Higher Education Characteristic Innovation Program
+- id: gz-smoking
+  title_zh: 基于神经影像大数据的吸烟行为多样性与功能连接组的关系
+  title_en: Smoking behavior diversity and functional connectomics using large-scale
+    neuroimaging
+  verified_source: Owner-provided CV dated 2026-10-11; project list dated 2026-10-26
+  verified_date: '2026-10-26'
+  kind: research
+  role: principal_investigator
+  program_zh: 广州市基础研究计划基础与应用基础研究项目
+  project_number: 2024A04J2776
+  period: 2024.01–2025.12
+  status: completed
+  status_as_of: '2026-10-26'
+  program_en: Guangzhou Basic and Applied Basic Research Program
+- id: lab-dependence
+  title_zh: 基于磁共振成像技术的吸烟成瘾和槟榔依赖与大脑白质功能网络的关系研究
+  title_en: White matter functional networks in smoking and betel quid dependence
+    using MRI
+  verified_source: Owner-provided CV dated 2026-10-11; project list dated 2026-10-26
+  verified_date: '2026-10-26'
+  kind: research
+  role: principal_investigator
+  program_zh: 计算与随机数学教育部重点实验室开放课题
+  project_number: null
+  period: 2023.03–2024.12
+  status: completed
+  status_as_of: '2026-10-26'
+  program_en: Open Research Fund of the MOE Key Laboratory of Computing and Stochastic
+    Mathematics
+- id: gdufs-wm
+  title_zh: 基于神经成像的白质功能网络分析
+  title_en: White matter functional network analysis using neuroimaging
+  verified_source: Owner-provided CV dated 2026-10-11; project list dated 2026-10-26
+  verified_date: '2026-10-26'
+  kind: research
+  role: principal_investigator
+  program_zh: 广东外语外贸大学引进人才科研启动项目
+  project_number: null
+  period: 2022.10–2025.07
+  status: completed
+  status_as_of: '2026-10-26'
+  program_en: GDUFS Research Start-up Fund
+- id: hunan-innovation
+  title_zh: 湖南省研究生科研创新（重点）项目
+  title_en: Hunan Postgraduate Research Innovation Program (Key Project)
+  verified_source: Owner-provided CV dated 2026-10-11; project list dated 2026-10-26
+  verified_date: '2026-10-26'
+  kind: research
+  role: principal_investigator
+  program_zh: 湖南省研究生科研创新项目
+  project_number: CX20200481
+  period: 2020–2021
+  status: completed
+  status_as_of: '2026-10-26'
+  program_en: Hunan Postgraduate Research Innovation Program
+- id: teaching-programming
+  title_zh: 统计编程软件类课程教研室
+  title_en: Teaching and research group for statistical programming courses
+  verified_source: Owner-provided CV dated 2026-10-11; project list dated 2026-10-26
+  verified_date: '2026-10-26'
+  kind: teaching
+  role: principal_investigator
+  program_zh: 校级质量工程项目
+  project_number: null
+  period: 2025–2027
+  status: not_stated
+  status_as_of: '2026-10-11'
+  program_en: University Quality Enhancement Program
+- id: teaching-ai-r
+  title_zh: AI时代下统计编程软件的教学改革与实践——以R语言为例
+  title_en: 'Teaching reform and practice for statistical programming in the AI era:
+    R programming'
+  verified_source: Owner-provided CV dated 2026-10-11; project list dated 2026-10-26
+  verified_date: '2026-10-26'
+  kind: teaching
+  role: principal_investigator
+  program_zh: 校级教育教学改革项目
+  project_number: null
+  period: 2025–2028
+  status: not_stated
+  status_as_of: '2026-10-11'
+  program_en: University Teaching Reform Program
+- id: teaching-economic-data
+  title_zh: 经济统计和数据科学课程教研室
+  title_en: Teaching and research group for economic statistics and data science
+  verified_source: Owner-provided CV dated 2026-10-11; project list dated 2026-10-26
+  verified_date: '2026-10-26'
+  kind: teaching
+  role: participant
+  program_zh: 广东省质量工程课程教研室项目
+  project_number: null
+  period: null
+  status: not_stated
+  status_as_of: '2026-10-11'
+  program_en: Guangdong Provincial Quality Enhancement Program for Course Teaching
+    and Research Groups
+honors:
+- id: national-case
+  title_zh: 撰写案例入选全国应用统计专业学位教育教学案例库
+  title_en: Case selected for the national teaching case repository for professional
+    graduate education in applied statistics
+  verified_source: Owner-provided CV dated 2026-10-11; project list dated 2026-10-26
+  verified_date: '2026-10-26'
+  period: null
+  recipient: self
+  selected: true
+  source_date: '2026-10-11'
+- id: statistics-2025
+  title_zh: 广东省现场统计学会学术年会优秀论文二等奖
+  title_en: Second Prize for Outstanding Paper at the annual meeting of the Guangdong
+    Association for Applied Statistics
+  verified_source: Owner-provided CV dated 2026-10-11; project list dated 2026-10-26
+  verified_date: '2026-10-26'
+  period: '2025'
+  recipient: self
+  selected: true
+  source_date: '2026-10-11'
+- id: teaching-2025
+  title_zh: 广东外语外贸大学优秀教学奖二等奖
+  title_en: Second Prize, Outstanding Teaching Award, GDUFS
+  verified_source: Owner-provided CV dated 2026-10-11; project list dated 2026-10-26
+  verified_date: '2026-10-26'
+  period: '2025'
+  recipient: self
+  selected: true
+  source_date: '2026-10-11'
+- id: thesis-supervisor
+  title_zh: 广东外语外贸大学优秀本科毕业论文指导老师
+  title_en: Supervisor of Outstanding Undergraduate Theses, GDUFS
+  verified_source: Owner-provided CV dated 2026-10-11; project list dated 2026-10-26
+  verified_date: '2026-10-26'
+  period: 2024、2025
+  recipient: self
+  selected: false
+  source_date: '2026-10-11'
+- id: party-2025
+  period: '2025'
+  title_zh: 广东外语外贸大学优秀共产党员
+  title_en: Outstanding Communist Party Member, GDUFS
+  verified_source: Owner-provided CV dated 2026-10-11
+  verified_date: '2026-10-27'
+  recipient: self
+  source_date: '2026-10-11'
+  selected: false
+- id: statistics-2024
+  title_zh: 广东省现场统计学会学术年会优秀论文二等奖
+  title_en: Second Prize for Outstanding Paper at the annual meeting of the Guangdong
+    Association for Applied Statistics
+  verified_source: Owner-provided CV dated 2026-10-11; project list dated 2026-10-26
+  verified_date: '2026-10-26'
+  period: '2024'
+  recipient: self
+  selected: false
+  source_date: '2026-10-11'
+- id: teaching-2024
+  title_zh: 广东外语外贸大学优秀教学奖二等奖
+  title_en: Second Prize, Outstanding Teaching Award, GDUFS
+  verified_source: Owner-provided CV dated 2026-10-11; project list dated 2026-10-26
+  verified_date: '2026-10-26'
+  period: '2024'
+  recipient: self
+  selected: true
+  source_date: '2026-10-11'
+- id: mentor-2024
+  title_zh: 广东外语外贸大学优秀本科生导师
+  title_en: Outstanding Undergraduate Mentor, GDUFS
+  verified_source: Owner-provided CV dated 2026-10-11; project list dated 2026-10-26
+  verified_date: '2026-10-26'
+  period: '2024'
+  recipient: self
+  selected: true
+  source_date: '2026-10-11'
+- id: staff-2024
+  title_zh: 广东外语外贸大学学年度先进个人
+  title_en: Outstanding Staff Member, GDUFS
+  verified_source: Owner-provided CV dated 2026-10-11; project list dated 2026-10-26
+  verified_date: '2026-10-26'
+  period: 2023–2024
+  recipient: self
+  selected: false
+  source_date: '2026-10-11'
+- id: assessment-2023
+  period: '2023'
+  title_zh: 广东外语外贸大学年度考核优秀
+  title_en: Excellent Rating in the Annual Performance Review, GDUFS
+  verified_source: Owner-provided CV dated 2026-10-11
+  verified_date: '2026-10-27'
+  recipient: self
+  source_date: '2026-10-11'
+  selected: false
+- id: party-2023
+  period: '2023'
+  title_zh: 广东外语外贸大学数学与统计学院优秀共产党员
+  title_en: Outstanding Communist Party Member, School of Mathematics and Statistics,
+    GDUFS
+  verified_source: Owner-provided CV dated 2026-10-11
+  verified_date: '2026-10-27'
+  recipient: self
+  source_date: '2026-10-11'
+  selected: false
+- id: doctoral-thesis
+  title_zh: 湖南师范大学优秀博士学位论文
+  title_en: Outstanding Doctoral Dissertation, Hunan Normal University
+  verified_source: Owner-provided CV dated 2026-10-11; project list dated 2026-10-26
+  verified_date: '2026-10-26'
+  period: '2022'
+  recipient: self
+  selected: true
+  source_date: '2026-10-11'
+- id: hunan-graduate
+  title_zh: 湖南省优秀毕业生
+  title_en: Outstanding Graduate of Hunan Province
+  verified_source: Owner-provided CV dated 2026-10-11; project list dated 2026-10-26
+  verified_date: '2026-10-26'
+  period: '2022'
+  recipient: self
+  selected: false
+  source_date: '2026-10-11'
+- id: doctoral-scholarship
+  title_zh: 博士研究生国家奖学金
+  title_en: National Scholarship for Doctoral Students
+  verified_source: Owner-provided CV dated 2026-10-11; project list dated 2026-10-26
+  verified_date: '2026-10-26'
+  period: '2020'
+  recipient: self
+  selected: false
+  source_date: '2026-10-11'
+student_achievements:
+- id: student-publications
+  title_zh: 指导学生发表论文8篇，其中SCI论文7篇、EI论文1篇
+  title_en: 'Supervised students published eight papers: seven SCI-indexed papers
+    and one EI-indexed paper'
+  period: 2025–2026
+  verified_source: Owner-provided CV dated 2026-10-11
+  verified_date: '2026-10-27'
+  recipient: supervised_students
+  source_date: '2026-10-11'
+- id: student-innovation
+  title_zh: 近三年指导学生获批国家级、省级大学生创新创业训练计划项目7项
+  title_en: Over the past three years, supervised students secured seven national
+    or provincial undergraduate innovation and entrepreneurship training projects
+  period: null
+  verified_source: Owner-confirmed updated total, 2026-10-28; national/provincial
+    breakdown not specified
+  verified_date: '2026-10-28'
+  recipient: supervised_students
+  source_date: '2026-10-28'
+- id: graduate-innovation
+  title_zh: 指导研究生获校级研究生科研创新项目立项1项
+  title_en: Supervised a graduate student whose research innovation project was approved
+    at the university level
+  period: '2026'
+  verified_source: Owner-provided CV dated 2026-10-11
+  verified_date: '2026-10-27'
+  recipient: supervised_students
+  source_date: '2026-10-11'
+- id: graduate-cases
+  title_zh: 全国应用统计专业学位研究生案例大赛：全国一等奖1项；华南赛区一等奖1项、二等奖2项、三等奖1项
+  title_en: 'National graduate case competition in applied statistics: one national
+    first prize; one first, two second and one third prize in the South China division'
+  verified_source: Owner-provided CV dated 2026-10-11; project list dated 2026-10-26
+  verified_date: '2026-10-26'
+  period: 2024–2026
+  recipient: supervised_students
+  source_date: '2026-10-11'
+- id: statistical-modeling
+  title_zh: 全国大学生统计建模竞赛：全国三等奖2项；广东赛区一等奖5项、二等奖4项
+  title_en: 'National statistical modeling competition: two national third prizes;
+    five first and four second prizes in Guangdong'
+  verified_source: Owner-provided CV dated 2026-10-11; project list dated 2026-10-26
+  verified_date: '2026-10-26'
+  period: 2024–2026
+  recipient: supervised_students
+  source_date: '2026-10-11'
+- id: market-survey
+  title_zh: 正大杯全国大学生市场调查与分析大赛：全国三等奖1项、广东赛区一等奖1项
+  title_en: 'Zhengda Cup National College Student Market Research and Analysis Competition:
+    one national third prize and one Guangdong first prize'
+  verified_source: Owner-provided CV dated 2026-10-11; project list dated 2026-10-26
+  verified_date: '2026-10-26'
+  period: 2024–2026
+  recipient: supervised_students
+  source_date: '2026-10-11'
+- id: mathematical-modeling
+  title_zh: 全国大学生数学建模竞赛：广东赛区一等奖、二等奖、三等奖各1项
+  title_en: 'National mathematical modeling competition: one first, one second and
+    one third prize in Guangdong'
+  verified_source: Owner-provided CV dated 2026-10-11; project list dated 2026-10-26
+  verified_date: '2026-10-26'
+  period: 2025–2026
+  recipient: supervised_students
+  source_date: '2026-10-11'
+- id: mathematics
+  title_zh: 全国大学生数学竞赛：广东赛区二等奖1项、三等奖2项
+  title_en: 'National mathematics competition: one second and two third prizes in
+    Guangdong'
+  verified_source: Owner-provided CV dated 2026-10-11; project list dated 2026-10-26
+  verified_date: '2026-10-26'
+  period: 2024–2026
+  recipient: supervised_students
+  source_date: '2026-10-11'
+- id: guangdong-survey
+  title_zh: 广东省大学生市场调研与分析大赛：二等奖、三等奖各1项
+  title_en: 'Guangdong student market research and analysis competition: one second
+    and one third prize'
+  verified_source: Owner-provided CV dated 2026-10-11; project list dated 2026-10-26
+  verified_date: '2026-10-26'
+  period: 2025–2026
+  recipient: supervised_students
+  source_date: '2026-10-11'
+- id: student-theses
+  title_zh: 指导的本科毕业论文获评广东外语外贸大学优秀本科毕业论文
+  title_en: Supervised undergraduate theses were recognized as Outstanding Undergraduate
+    Theses at GDUFS
+  verified_source: Owner-provided CV dated 2026-10-11; project list dated 2026-10-26
+  verified_date: '2026-10-26'
+  period: 2024、2025
+  recipient: supervised_students
+  source_date: '2026-10-11'
+- id: student-forum
+  title_zh: 指导学生获广东省研究生学术论坛统计学分论坛论文二等奖
+  title_en: A supervised student received Second Prize for a paper at the statistics
+    session of the Guangdong Graduate Academic Forum
+  verified_source: Owner-provided CV dated 2026-10-11; project list dated 2026-10-26
+  verified_date: '2026-10-26'
+  period: '2025'
+  recipient: supervised_students
+  source_date: '2026-10-11'
+service:
+- id: editorial-board
+  title_zh: 放射学实践青年编委
+  title_en: Early-career editorial board member, Radiologic Practice
+  verified_source: Owner-provided CV dated 2026-10-11; project list dated 2026-10-26
+  verified_date: '2026-10-26'
+- id: guangdong-statistics-council
+  title_zh: 广东现场统计学会理事
+  title_en: Council Member, Guangdong Association for Applied Statistics
+  verified_source: Owner confirmation, 2026-10-28
+  verified_date: '2026-10-28'
+- id: journal-review
+  title_zh: 担任Human Brain Mapping、Journal of Headache and Pain、Brain Communications、Alzheimer's
+    Research & Therapy、Nicotine & Tobacco Research、npj Dementia、《放射学实践》《磁共振成像》等十余种SSCI、SCI或CSCD收录期刊的审稿人
+  title_en: Peer reviewer for more than ten journals indexed in SSCI, SCI or CSCD,
+    including Human Brain Mapping, Journal of Headache and Pain, Brain Communications,
+    Alzheimer's Research & Therapy, Nicotine & Tobacco Research, npj Dementia, Radiologic
+    Practice and Chinese Journal of Magnetic Resonance Imaging
+  verified_source: Owner-confirmed wording, 2026-10-28
+  verified_date: '2026-10-28'
+- id: thesis-review
+  title_zh: 教育部学位中心硕士论文评审专家
+  title_en: Master’s thesis reviewer for the Ministry of Education’s degree evaluation
+    center
+  verified_source: Owner-provided CV dated 2026-10-11; project list dated 2026-10-26
+  verified_date: '2026-10-26'
+- id: workshop-teaching
+  title_zh: 粤港澳大湾区经济社会数据分析与可视化工作坊培训讲师
+  title_en: Instructor for the Greater Bay Area workshop on socioeconomic data analysis
+    and visualization
+  verified_source: Owner-provided CV dated 2026-10-11; project list dated 2026-10-26
+  verified_date: '2026-10-26'

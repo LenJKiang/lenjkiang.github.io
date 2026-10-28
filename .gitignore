@@ -1,0 +1,30 @@
+# Private, generated and local-only state
+/workspace/
+/dist/
+/website/zh/
+/website/en/
+/_site/
+/.quarto/
+**/_site/
+**/.quarto/
+**/__pycache__/
+.venv/
+venv/
+*.pyc
+.pytest_cache/
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+*.p12
+*.tmp
+*.bak
+*.log
+~$*
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+# Synthetic binary fixtures are generated in workspace/working/, never tracked.
+# public/ is reserved for hash-approved files. Validation also checks every byte.

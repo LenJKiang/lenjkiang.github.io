@@ -1,0 +1,661 @@
+- id: wm-lateralization
+  title: The functional lateralization of white matter with sex differences
+  authors:
+  - Zhuo-Yan Cai
+  - Kang Hu
+  - Ze-Qiang Linli
+  journal: Cerebral Cortex
+  year: 2026
+  doi: 10.1093/cercor/bhag178
+  publisher_url: https://doi.org/10.1093/cercor/bhag178
+  summary_zh: null
+  summary_en: null
+  research_category: white-matter
+  publication_type: journal-article
+  selected: true
+  pdf_version: unknown
+  pdf_permission_status: external_link_only
+  pdf_public_path: null
+  verified_source:
+  - Owner-confirmed publication list, 2026-10-26
+  - Published article PDF supplied by owner; title and DOI checked, 2026-10-27
+  - https://doi.org/10.1093/cercor/bhag178
+  verified_date: '2026-10-27'
+  metadata_status: published_pdf_doi_checked
+  owner_role: corresponding_author
+  owner_role_source: Owner-confirmed publication list, 2026-10-26
+  authors_complete: true
+  selected_order: 5
+- id: wm-autism
+  title: Functional Dysconnectivity of White Matter Networks is Associated with Clinical
+    Impairment in Autism Spectrum Disorder
+  authors:
+  - Si-Jing Wu
+  - Miao-Ting Huang
+  - Dan-Wei Huang
+  - Ze-Qiang Linli
+  - Shui-Xia Guo
+  journal: International Journal of Developmental Neuroscience
+  year: 2026
+  doi: 10.1002/jdn.70120
+  publisher_url: https://doi.org/10.1002/jdn.70120
+  summary_zh: null
+  summary_en: null
+  research_category: white-matter
+  publication_type: journal-article
+  selected: false
+  pdf_version: unknown
+  pdf_permission_status: external_link_only
+  pdf_public_path: null
+  verified_source:
+  - Owner-confirmed publication list, 2026-10-26
+  - Published article PDF supplied by owner; title and DOI checked, 2026-10-27
+  - https://doi.org/10.1002/jdn.70120
+  verified_date: '2026-10-27'
+  metadata_status: published_pdf_doi_checked
+  owner_role: corresponding_author
+  owner_role_source: Owner-confirmed publication list, 2026-10-26
+  authors_complete: true
+- id: gwm-hfn
+  title: GWM-HFN, a Gray-White Matter heterogeneous fusion network for functional
+    connectomes
+  authors:
+  - Kang Hu
+  - Zhuo-Yan Cai
+  - Yun-Er Xu
+  - Yu Chen
+  - Chu-Chu Zheng
+  - Ze-Qiang Linli
+  journal: Communications Biology
+  year: 2025
+  doi: 10.1038/s42003-025-09231-0
+  publisher_url: https://doi.org/10.1038/s42003-025-09231-0
+  summary_zh: null
+  summary_en: null
+  research_category: joint-networks
+  publication_type: journal-article
+  selected: true
+  pdf_version: unknown
+  pdf_permission_status: external_link_only
+  pdf_public_path: null
+  verified_source:
+  - https://www.nature.com/articles/s42003-025-09231-0
+  - Owner-confirmed publication list, 2026-10-26
+  - Published article PDF supplied by owner; title and DOI checked, 2026-10-27
+  - https://doi.org/10.1038/s42003-025-09231-0
+  verified_date: '2026-10-27'
+  metadata_status: published_pdf_doi_checked
+  owner_role: corresponding_author
+  owner_role_source: Owner-confirmed publication list, 2026-10-26
+  authors_complete: true
+  title_note: Published PDF title used instead of earlier bibliography title.
+  selected_order: 1
+- id: brain-age-sngp
+  title: 'Enhancing Brain Age Estimation Under Uncertainty: A Spectral-normalized
+    Neural Gaussian Process Approach Utilizing 2.5D Slicing'
+  authors:
+  - Zeqiang Linli
+  - Xingcheng Liang
+  - Zhenhua Zhang
+  - Kang Hu
+  - Shuixia Guo
+  journal: NeuroImage
+  year: 2025
+  doi: 10.1016/j.neuroimage.2025.121184
+  publisher_url: https://doi.org/10.1016/j.neuroimage.2025.121184
+  summary_zh: null
+  summary_en: null
+  research_category: brain-applications
+  publication_type: journal-article
+  selected: true
+  pdf_version: unknown
+  pdf_permission_status: external_link_only
+  pdf_public_path: null
+  verified_source:
+  - https://stxy.gdufs.edu.cn/info/1683/4359.htm
+  - Published article PDF supplied by owner; title and DOI checked, 2026-10-27
+  - https://doi.org/10.1016/j.neuroimage.2025.121184
+  verified_date: '2026-10-27'
+  metadata_status: published_pdf_doi_checked
+  owner_role: first_author
+  owner_role_source: Owner-confirmed publication list, 2026-10-26
+  authors_complete: true
+  selected_order: 2
+- id: wm-lifespan
+  title: Static and dynamic connectivity structure of white-matter functional networks
+    across the adult lifespan
+  authors:
+  - Zeqiang LinLi
+  - Kang Hu
+  - Qingdong Guo
+  - Shuixia Guo
+  journal: Progress in Neuro-Psychopharmacology and Biological Psychiatry
+  year: 2025
+  doi: 10.1016/j.pnpbp.2025.111252
+  publisher_url: https://doi.org/10.1016/j.pnpbp.2025.111252
+  summary_zh: null
+  summary_en: null
+  research_category: white-matter
+  publication_type: journal-article
+  selected: true
+  pdf_version: unknown
+  pdf_permission_status: external_link_only
+  pdf_public_path: null
+  verified_source:
+  - https://stxy.gdufs.edu.cn/info/1683/4359.htm
+  - https://api.crossref.org/works/10.1016/j.pnpbp.2025.111252
+  - Published article PDF supplied by owner; title and DOI checked, 2026-10-27
+  - https://doi.org/10.1016/j.pnpbp.2025.111252
+  verified_date: '2026-10-27'
+  metadata_status: published_pdf_doi_checked
+  owner_role: first_author
+  owner_role_source: Owner-confirmed publication list, 2026-10-26
+  authors_complete: true
+  selected_order: 3
+- id: wm-sex
+  title: Sexual dimorphism of white-matter functional connectome in healthy young
+    adults
+  authors:
+  - Zhuo-Yan Cai
+  - Kang Hu
+  - Ze-Qiang Linli
+  journal: Progress in Neuro-Psychopharmacology and Biological Psychiatry
+  year: 2025
+  doi: 10.1016/j.pnpbp.2025.111486
+  publisher_url: https://doi.org/10.1016/j.pnpbp.2025.111486
+  summary_zh: null
+  summary_en: null
+  research_category: white-matter
+  publication_type: journal-article
+  selected: false
+  pdf_version: unknown
+  pdf_permission_status: external_link_only
+  pdf_public_path: null
+  verified_source:
+  - https://stxy.gdufs.edu.cn/info/1683/4359.htm
+  - https://api.crossref.org/works/10.1016/j.pnpbp.2025.111486
+  - Published article PDF supplied by owner; title and DOI checked, 2026-10-27
+  - https://doi.org/10.1016/j.pnpbp.2025.111486
+  verified_date: '2026-10-27'
+  metadata_status: published_pdf_doi_checked
+  owner_role: corresponding_author
+  owner_role_source: Owner-confirmed publication list, 2026-10-26
+  authors_complete: true
+- id: gm-wm-aging
+  title: Functional Alterations in Gray Matter Networks Mediated by White Matter During
+    the Aging Process
+  authors:
+  - Jianxi Liu
+  - Mingcong Huang
+  - Kang Hu
+  - Nannan Xia
+  - Zeqiang Linli
+  journal: Journal of Neuroimaging
+  year: 2025
+  doi: 10.1111/jon.70036
+  publisher_url: https://doi.org/10.1111/jon.70036
+  summary_zh: null
+  summary_en: null
+  research_category: joint-networks
+  publication_type: journal-article
+  selected: false
+  pdf_version: unknown
+  pdf_permission_status: external_link_only
+  pdf_public_path: null
+  verified_source:
+  - https://stxy.gdufs.edu.cn/info/1683/4359.htm
+  - https://api.crossref.org/works/10.1111/jon.70036
+  - Published article PDF supplied by owner; title and DOI checked, 2026-10-27
+  - https://doi.org/10.1111/jon.70036
+  verified_date: '2026-10-27'
+  metadata_status: published_pdf_doi_checked
+  owner_role: corresponding_author
+  owner_role_source: Owner-confirmed publication list, 2026-10-26
+  authors_complete: true
+- id: dynamic-modularity
+  title: Age-Related Changes in Brain Network Modularity Based on the Dynamic Sliding
+    Window Subnetwork Voting Method
+  authors:
+  - Jianxi Liu
+  - Nannan Xia
+  - Kang Hu
+  - Mingcong Huang
+  - Zeqiang Linli
+  journal: International Journal of Developmental Neuroscience
+  year: 2025
+  doi: 10.1002/jdn.70025
+  publisher_url: https://doi.org/10.1002/jdn.70025
+  summary_zh: null
+  summary_en: null
+  research_category: joint-networks
+  publication_type: journal-article
+  selected: false
+  pdf_version: unknown
+  pdf_permission_status: external_link_only
+  pdf_public_path: null
+  verified_source:
+  - Owner-confirmed publication list, 2026-10-26
+  - Published article PDF supplied by owner; title and DOI checked, 2026-10-27
+  - https://doi.org/10.1002/jdn.70025
+  verified_date: '2026-10-27'
+  metadata_status: published_pdf_doi_checked
+  owner_role: corresponding_author
+  owner_role_source: Owner-confirmed publication list, 2026-10-26
+  authors_complete: true
+- id: brain-tumor-detection
+  title: RT-DETR+DL Intelligent Diagnosis Model for Brain Tumors Based on MRI Influence
+    Recognition
+  authors:
+  - Zhenhua Zhang
+  - Ziyi Sun
+  - Zhilin Ai
+  - Jiahua Huang
+  - Zeqiang Linli
+  journal: International Conference on Advanced Data Mining and Applications
+  year: 2025
+  doi: 10.1007/978-981-95-3459-3_39
+  publisher_url: https://doi.org/10.1007/978-981-95-3459-3_39
+  summary_zh: null
+  summary_en: null
+  research_category: brain-applications
+  publication_type: conference-paper
+  selected: false
+  pdf_version: unknown
+  pdf_permission_status: external_link_only
+  pdf_public_path: null
+  verified_source:
+  - Owner-confirmed publication list, 2026-10-26
+  - Published article PDF supplied by owner; title and DOI checked, 2026-10-27
+  - https://doi.org/10.1007/978-981-95-3459-3_39
+  verified_date: '2026-10-27'
+  metadata_status: published_pdf_doi_checked
+  owner_role: corresponding_author
+  owner_role_source: Owner-confirmed publication list, 2026-10-26
+  authors_complete: true
+- id: schizophrenia-dynamics
+  title: Aberrant global and local dynamic properties in schizophrenia with instantaneous
+    phase method based on Hilbert transform
+  authors:
+  - Dan Sheng
+  - Weidan Pu
+  - Zeqiang Linli
+  - Guo-Liang Tian
+  - Shuixia Guo
+  - Yu Fei
+  journal: Psychological Medicine
+  year: 2023
+  doi: 10.1017/S0033291721003895
+  publisher_url: https://doi.org/10.1017/S0033291721003895
+  summary_zh: null
+  summary_en: null
+  research_category: brain-applications
+  publication_type: journal-article
+  selected: false
+  pdf_version: unknown
+  pdf_permission_status: external_link_only
+  pdf_public_path: null
+  verified_source:
+  - https://stxy.gdufs.edu.cn/info/1683/4359.htm
+  - Published article PDF supplied by owner; title and DOI checked, 2026-10-27
+  - https://doi.org/10.1017/S0033291721003895
+  verified_date: '2026-10-27'
+  metadata_status: published_pdf_doi_checked
+  owner_role: co_first_author
+  owner_role_source: Owner-confirmed publication list, 2026-10-26
+  authors_complete: true
+- id: smoking-volume
+  title: 'Smoking is associated with lower brain volume and cognitive differences:
+    A large population analysis based on the UK Biobank'
+  authors:
+  - Zeqiang Linli
+  - Edmund T. Rolls
+  - Wei Zhao
+  - Jujiao Kang
+  - Jianfeng Feng
+  - Shuixia Guo
+  journal: Progress in Neuro-Psychopharmacology and Biological Psychiatry
+  year: 2023
+  doi: 10.1016/j.pnpbp.2022.110698
+  publisher_url: https://doi.org/10.1016/j.pnpbp.2022.110698
+  summary_zh: null
+  summary_en: null
+  research_category: brain-applications
+  publication_type: journal-article
+  selected: false
+  pdf_version: unknown
+  pdf_permission_status: external_link_only
+  pdf_public_path: null
+  verified_source:
+  - https://stxy.gdufs.edu.cn/info/1683/4359.htm
+  - https://api.crossref.org/works/10.1016/j.pnpbp.2022.110698
+  - Published article PDF supplied by owner; title and DOI checked, 2026-10-27
+  - https://doi.org/10.1016/j.pnpbp.2022.110698
+  verified_date: '2026-10-27'
+  metadata_status: published_pdf_doi_checked
+  owner_role: first_author
+  owner_role_source: Owner-confirmed publication list, 2026-10-26
+  authors_complete: true
+- id: smoking-aging
+  title: Associations between smoking and accelerated brain ageing
+  authors:
+  - Zeqiang Linli
+  - Jianfeng Feng
+  - Wei Zhao
+  - Shuixia Guo
+  journal: Progress in Neuro-Psychopharmacology and Biological Psychiatry
+  year: 2022
+  doi: 10.1016/j.pnpbp.2021.110471
+  publisher_url: https://doi.org/10.1016/j.pnpbp.2021.110471
+  summary_zh: null
+  summary_en: null
+  research_category: brain-applications
+  publication_type: journal-article
+  selected: true
+  pdf_version: unknown
+  pdf_permission_status: external_link_only
+  pdf_public_path: null
+  verified_source:
+  - https://stxy.gdufs.edu.cn/info/1683/4359.htm
+  - Published article PDF supplied by owner; title and DOI checked, 2026-10-27
+  - https://doi.org/10.1016/j.pnpbp.2021.110471
+  verified_date: '2026-10-27'
+  metadata_status: published_pdf_doi_checked
+  owner_role: first_author
+  owner_role_source: Owner-confirmed publication list, 2026-10-26
+  authors_complete: true
+  selected_order: 4
+- id: betel-mvpa
+  title: A multivariate pattern analysis of resting-state functional MRI data in Naïve
+    and chronic betel quid chewers
+  authors:
+  - Zeqiang Linli
+  - Xiaojun Huang
+  - Zhening Liu
+  - Shuixia Guo
+  - Adellah Sariah
+  journal: Brain Imaging and Behavior
+  year: 2021
+  doi: 10.1007/s11682-020-00322-6
+  publisher_url: https://doi.org/10.1007/s11682-020-00322-6
+  summary_zh: null
+  summary_en: null
+  research_category: brain-applications
+  publication_type: journal-article
+  selected: false
+  pdf_version: unknown
+  pdf_permission_status: external_link_only
+  pdf_public_path: null
+  verified_source:
+  - https://stxy.gdufs.edu.cn/info/1683/4359.htm
+  - Published article PDF supplied by owner; title and DOI checked, 2026-10-27
+  - https://doi.org/10.1007/s11682-020-00322-6
+  verified_date: '2026-10-27'
+  metadata_status: published_pdf_doi_checked
+  owner_role: first_author
+  owner_role_source: Owner-confirmed publication list, 2026-10-26
+  authors_complete: true
+- id: covid-quantile
+  title: Identifying and quantifying robust risk factors for mortality in critically
+    ill patients with COVID-19 using quantile regression
+  authors:
+  - Zeqiang Linli
+  - Yinyin Chen
+  - Guoliang Tian
+  - Shuixia Guo
+  - Yu Fei
+  journal: The American Journal of Emergency Medicine
+  year: 2021
+  doi: 10.1016/j.ajem.2020.08.090
+  publisher_url: https://doi.org/10.1016/j.ajem.2020.08.090
+  summary_zh: null
+  summary_en: null
+  research_category: other-research
+  publication_type: journal-article
+  selected: false
+  pdf_version: unknown
+  pdf_permission_status: external_link_only
+  pdf_public_path: null
+  verified_source:
+  - https://stxy.gdufs.edu.cn/info/1683/4359.htm
+  - https://api.crossref.org/works/10.1016/j.ajem.2020.08.090
+  - Published article PDF supplied by owner; title and DOI checked, 2026-10-27
+  - https://doi.org/10.1016/j.ajem.2020.08.090
+  verified_date: '2026-10-27'
+  metadata_status: published_pdf_doi_checked
+  owner_role: first_author
+  owner_role_source: Owner-confirmed publication list, 2026-10-26
+  authors_complete: true
+- id: covid-mvpa
+  title: 'Risk factors for mortality in critically ill patients with COVID‐19 in Huanggang,
+    China: A single‐center multivariate pattern analysis'
+  authors:
+  - Yinyin Chen
+  - Zeqiang Linli
+  - Yuting Lei
+  - Yiya Yang
+  - Zhipeng Liu
+  - Youchun Xia
+  - et al.
+  journal: Journal of Medical Virology
+  year: 2021
+  doi: 10.1002/jmv.26572
+  publisher_url: https://doi.org/10.1002/jmv.26572
+  summary_zh: null
+  summary_en: null
+  research_category: other-research
+  publication_type: journal-article
+  selected: false
+  pdf_version: unknown
+  pdf_permission_status: external_link_only
+  pdf_public_path: null
+  verified_source:
+  - Owner-confirmed publication list, 2026-10-26
+  - Published article PDF supplied by owner; title and DOI checked, 2026-10-27
+  - https://doi.org/10.1002/jmv.26572
+  verified_date: '2026-10-27'
+  metadata_status: published_pdf_doi_checked
+  owner_role: co_first_author
+  owner_role_source: Owner-confirmed publication list, 2026-10-26
+  authors_complete: false
+- id: cmo-characterization
+  title: A simple proof of Fefferman-Stein type characterization of CMO (ℝn) Space
+  authors:
+  - Qingdong Guo
+  - Zeqiang Linli
+  - Kang Hu
+  journal: Czechoslovak Mathematical Journal
+  year: 2025
+  doi: 10.21136/CMJ.2025.0331-24
+  publisher_url: https://doi.org/10.21136/CMJ.2025.0331-24
+  summary_zh: null
+  summary_en: null
+  research_category: other-research
+  publication_type: journal-article
+  selected: false
+  pdf_version: unknown
+  pdf_permission_status: external_link_only
+  pdf_public_path: null
+  verified_source:
+  - Owner-confirmed publication list, 2026-10-26
+  - Published article PDF supplied by owner; title and DOI checked, 2026-10-27
+  - https://doi.org/10.21136/CMJ.2025.0331-24
+  verified_date: '2026-10-27'
+  metadata_status: published_pdf_doi_checked
+  owner_role: coauthor
+  owner_role_source: 'Published PDF first page: Qingdong Guo, Zeqiang Linli, Kang
+    Hu; no equal-first designation; checked 2026-10-28'
+  authors_complete: true
+- id: smoking-polygenic
+  title: Associations between polygenic risk scores and accelerated brain ageing in
+    smokers
+  authors:
+  - Zeyu Yang
+  - Wei Zhao
+  - Zeqiang Linli
+  - Shuixia Guo
+  - Jianfeng Feng
+  journal: Psychological Medicine
+  year: 2023
+  doi: 10.1017/S0033291723001812
+  publisher_url: https://doi.org/10.1017/S0033291723001812
+  summary_zh: null
+  summary_en: null
+  research_category: brain-applications
+  publication_type: journal-article
+  selected: false
+  pdf_version: unknown
+  pdf_permission_status: external_link_only
+  pdf_public_path: null
+  verified_source:
+  - Owner-confirmed publication list, 2026-10-26
+  - Published article PDF supplied by owner; title and DOI checked, 2026-10-27
+  - https://doi.org/10.1017/S0033291723001812
+  verified_date: '2026-10-27'
+  metadata_status: published_pdf_doi_checked
+  owner_role: coauthor
+  owner_role_source: Owner-confirmed publication list, 2026-10-26
+  authors_complete: true
+- id: schizophrenia-circuits
+  title: Functional, anatomical, and morphological networks highlight the role of
+    basal ganglia–thalamus–cortex circuits in schizophrenia
+  authors:
+  - Wei Zhao
+  - Shuixia Guo
+  - Zeqiang Linli
+  - Albert C. Yang
+  - Ching-Po Lin
+  - Shih-Jen Tsai
+  journal: Schizophrenia Bulletin
+  year: 2020
+  doi: 10.1093/schbul/sbz062
+  publisher_url: https://doi.org/10.1093/schbul/sbz062
+  summary_zh: null
+  summary_en: null
+  research_category: brain-applications
+  publication_type: journal-article
+  selected: false
+  pdf_version: unknown
+  pdf_permission_status: external_link_only
+  pdf_public_path: null
+  verified_source:
+  - Owner-confirmed publication list, 2026-10-26
+  - Published article PDF supplied by owner; title and DOI checked, 2026-10-27
+  - https://doi.org/10.1093/schbul/sbz062
+  verified_date: '2026-10-27'
+  metadata_status: published_pdf_doi_checked
+  owner_role: coauthor
+  owner_role_source: Owner-confirmed publication list, 2026-10-26
+  authors_complete: true
+- id: schizophrenia-dysconnectivity
+  title: 'Brain-wide functional dysconnectivity in schizophrenia: parsing diathesis,
+    resilience, and the effects of clinical expression'
+  authors:
+  - Shuixia Guo
+  - Ningning He
+  - Zhening Liu
+  - Zeqiang Linli
+  - Haojuan Tao
+  - Lena Palaniyappan
+  journal: The Canadian Journal of Psychiatry
+  year: 2020
+  doi: 10.1177/0706743719890174
+  publisher_url: https://doi.org/10.1177/0706743719890174
+  summary_zh: null
+  summary_en: null
+  research_category: brain-applications
+  publication_type: journal-article
+  selected: false
+  pdf_version: unknown
+  pdf_permission_status: external_link_only
+  pdf_public_path: null
+  verified_source:
+  - Owner-confirmed publication list, 2026-10-26
+  - Published article PDF supplied by owner; title and DOI checked, 2026-10-27
+  - https://doi.org/10.1177/0706743719890174
+  verified_date: '2026-10-27'
+  metadata_status: published_pdf_doi_checked
+  owner_role: coauthor
+  owner_role_source: Owner-confirmed publication list, 2026-10-26
+  authors_complete: true
+- id: adhd-asymmetry
+  title: 'Abnormal hemispheric asymmetry of both brain function and structure in attention
+    deficit/hyperactivity disorder: a meta-analysis of individual participant data'
+  authors:
+  - Ningning He
+  - Lena Palaniyappan
+  - Zeqiang Linli
+  - Shuixia Guo
+  journal: Brain Imaging and Behavior
+  year: 2022
+  doi: 10.1007/s11682-021-00476-x
+  publisher_url: https://doi.org/10.1007/s11682-021-00476-x
+  summary_zh: null
+  summary_en: null
+  research_category: white-matter
+  publication_type: journal-article
+  selected: false
+  pdf_version: unknown
+  pdf_permission_status: external_link_only
+  pdf_public_path: null
+  verified_source:
+  - Owner-confirmed publication list, 2026-10-26
+  - Published article PDF supplied by owner; title and DOI checked, 2026-10-27
+  - https://doi.org/10.1007/s11682-021-00476-x
+  verified_date: '2026-10-27'
+  metadata_status: published_pdf_doi_checked
+  owner_role: coauthor
+  owner_role_source: Owner-confirmed publication list, 2026-10-26
+  authors_complete: true
+- id: betel-alff-dfc
+  title: 基于ALFF和动态功能连接的槟榔成瘾的研究
+  authors:
+  - 张若菡
+  - 林李泽强
+  - 郭水霞
+  journal: 生物数学学报
+  year: 2020
+  doi: null
+  publisher_url: null
+  summary_zh: null
+  summary_en: null
+  research_category: other-research
+  publication_type: journal-article
+  selected: false
+  pdf_version: unknown
+  pdf_permission_status: external_link_only
+  pdf_public_path: null
+  verified_source: Owner-confirmed publication list, 2026-10-26
+  verified_date: '2026-10-26'
+  metadata_status: owner_confirmed_bibliography
+  owner_role: coauthor
+  owner_role_source: Owner-confirmed publication list, 2026-10-26
+  authors_complete: true
+  pdf_links_enabled: false
+  pdf_display_decision: Not required by owner, 2026-10-27
+- id: vr-moral-education
+  title: 虚拟现实技术视角下课堂德育情境创设的目标要求与仿真实现
+  authors:
+  - 熊远
+  - 郭雨
+  - 徐玲
+  - 林李泽强
+  journal: 教育科学论坛
+  year: 2023
+  doi: null
+  publisher_url: null
+  summary_zh: null
+  summary_en: null
+  research_category: other-research
+  publication_type: journal-article
+  selected: false
+  pdf_version: unknown
+  pdf_permission_status: external_link_only
+  pdf_public_path: null
+  verified_source: Owner-confirmed publication list, 2026-10-26
+  verified_date: '2026-10-26'
+  metadata_status: owner_confirmed_bibliography
+  owner_role: coauthor
+  owner_role_source: Owner-confirmed publication list, 2026-10-26
+  authors_complete: true
+  pdf_links_enabled: false
+  pdf_display_decision: Not required by owner, 2026-10-27

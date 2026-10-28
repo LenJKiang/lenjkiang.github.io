@@ -1,0 +1,87 @@
+- course_id: probability
+  title_zh: 概率论
+  title_en: Probability Theory
+  description_zh: 面向经管类、应用心理学等专业本科生的概率论课程，配套教材为龙永红著《概率论与数理统计》。课程涵盖前三章内容：随机事件与概率、随机变量的分布与数字特征、随机向量。
+  description_en: 'An undergraduate course in probability theory for students in economics
+    and management, applied psychology and related disciplines, using Long Yonghong’s
+    Probability Theory and Mathematical Statistics (《概率论与数理统计》). The course covers
+    the first three chapters: random events and probability; distributions and numerical
+    characteristics of random variables; and random vectors.'
+  language: zh
+  chapters:
+  - id: chapter-01
+    title_zh: 第一章 随机事件与概率
+    title_en: 'Chapter 1: Random events and probability'
+  - id: chapter-02
+    title_zh: 第二章 随机变量的分布与数字特征
+    title_en: 'Chapter 2: Distributions and numerical characteristics of random variables'
+  - id: chapter-03
+    title_zh: 第三章 随机向量
+    title_en: 'Chapter 3: Random vectors'
+  resources: []
+  publication_status: metadata_only
+  teaching_record: 2022–2026 秋
+  verified_source: https://stxy.gdufs.edu.cn/info/1683/4359.htm
+  verified_date: '2026-10-26'
+  audience_zh: 经管类、应用心理学等专业本科生
+  audience_en: Undergraduates in economics, management, applied psychology and related
+    disciplines
+  textbook_zh: 龙永红著《概率论与数理统计》
+  textbook_en: Long Yonghong, Probability Theory and Mathematical Statistics (《概率论与数理统计》)
+- course_id: statistics
+  title_zh: 统计学
+  title_en: Statistics
+  description_zh: 面向本科生的统计学课程。
+  description_en: An undergraduate course in statistics.
+  language: zh
+  chapters: []
+  resources: []
+  publication_status: metadata_only
+  teaching_record: 2023 春–2026 春
+  verified_source: https://stxy.gdufs.edu.cn/info/1683/4359.htm
+  verified_date: '2026-10-26'
+  audience_zh: 经管类、应用心理学等专业本科生
+  audience_en: Undergraduates in economics, management, applied psychology and related
+    disciplines
+- course_id: r-programming
+  title_zh: R语言
+  title_en: R Programming
+  description_zh: 面向本科生的R语言课程。
+  description_en: An undergraduate course in R programming.
+  language: zh
+  chapters: []
+  resources: []
+  publication_status: metadata_only
+  teaching_record: 2024 秋–2026 秋
+  verified_source: https://stxy.gdufs.edu.cn/info/1683/4359.htm
+  verified_date: '2026-10-26'
+  audience_zh: 经济统计学专业本科生
+  audience_en: Undergraduate students in Economic Statistics
+- course_id: academic-writing
+  title_zh: 论文写作指导
+  title_en: Academic Writing
+  description_zh: 面向研究生的论文写作指导课程。
+  description_en: A graduate course in academic writing.
+  language: zh
+  chapters: []
+  resources: []
+  publication_status: metadata_only
+  teaching_record: 2023 春–2026 春
+  verified_source: https://stxy.gdufs.edu.cn/info/1683/4359.htm
+  verified_date: '2026-10-26'
+  audience_zh: 应用统计及统计学专业硕士研究生
+  audience_en: Master’s students in Applied Statistics and Statistics
+- course_id: case-practice
+  title_zh: 案例实务
+  title_en: Case Studies in Applied Statistics
+  description_zh: 面向研究生的应用统计案例实务课程。
+  description_en: A graduate course in case studies in applied statistics.
+  language: zh
+  chapters: []
+  resources: []
+  publication_status: metadata_only
+  teaching_record: 2024 春–2026 春
+  verified_source: https://stxy.gdufs.edu.cn/info/1683/4359.htm
+  verified_date: '2026-10-26'
+  audience_zh: 应用统计及统计学专业硕士研究生
+  audience_en: Master’s students in Applied Statistics and Statistics

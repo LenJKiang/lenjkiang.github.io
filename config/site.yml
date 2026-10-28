@@ -1,0 +1,11 @@
+base_path: /
+canonical_origin: https://lenjkiang.github.io
+capacity_warning_mb: 700
+capacity_limit_mb: 950
+asset_limit_mb: 50
+github_username: LenJKiang
+github_repository: lenjkiang.github.io
+suggested_repository: lenjkiang.github.io
+teaching_public_formats:
+- pdf
+github_repository_url: https://github.com/LenJKiang/lenjkiang.github.io.git

@@ -1,0 +1,31 @@
+- id: white-matter
+  title_zh: 白质功能连接组
+  title_en: White matter functional connectomics
+  description_zh: 研究白质功能网络的静态与动态组织及其随年龄的变化。
+  description_en: Studying the static and dynamic organization of white matter functional
+    networks and age-related variation.
+  verified_source: https://stxy.gdufs.edu.cn/info/1683/4359.htm
+  verified_date: '2026-10-26'
+- id: joint-networks
+  title_zh: 灰白质联合网络与统计建模
+  title_en: Joint gray–white matter networks and statistical modeling
+  description_zh: 整合灰质与白质信息，发展脑网络分析与统计建模方法。
+  description_en: Integrating gray and white matter information for connectome analysis
+    and statistical modeling.
+  verified_source: https://stxy.gdufs.edu.cn/info/1683/4359.htm
+  verified_date: '2026-10-26'
+- id: brain-applications
+  title_zh: 脑发育、老化与行为
+  title_en: Development, aging and behavior
+  description_zh: 将脑影像方法用于发育与老化、神经精神疾病、物质依赖及二语认知研究。
+  description_en: Applying neuroimaging methods to development and aging, neuropsychiatric
+    conditions, substance dependence and second-language cognition.
+  verified_source: https://stxy.gdufs.edu.cn/info/1683/4359.htm
+  verified_date: '2026-10-26'
+- id: other-research
+  title_zh: 统计与其他研究
+  title_en: Statistics and other research
+  description_zh: 其他已发表的统计方法、数学与教学研究。
+  description_en: Other published work in statistical methods, mathematics and teaching.
+  verified_source: Owner-confirmed publication list, 2026-10-26
+  verified_date: '2026-10-26'

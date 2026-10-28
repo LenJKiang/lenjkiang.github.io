@@ -1,0 +1,12 @@
+- id: university-profile
+  title_zh: 学校官方教师主页
+  title_en: Official university profile
+  url: https://stxy.gdufs.edu.cn/info/1683/4359.htm
+  verified_source: https://stxy.gdufs.edu.cn/info/1683/4359.htm
+  verified_date: '2026-10-26'
+- id: researchgate
+  title_zh: ResearchGate 学术档案
+  title_en: ResearchGate profile
+  url: https://www.researchgate.net/profile/Ze-Qiang-Linli
+  verified_source: https://stxy.gdufs.edu.cn/info/1683/4359.htm
+  verified_date: '2026-10-26'
