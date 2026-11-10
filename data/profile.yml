@@ -15,7 +15,7 @@ wechat: 统计学教书匠的脑
 verified_source: https://stxy.gdufs.edu.cn/info/1683/4359.htm
 verified_date: '2026-10-26'
 status: verified_public_source
-updated: '2026-10-28'
+updated: '2026-11-10'
 bio_zh: 林李泽强，博士、讲师、硕士生导师。2022年6月毕业于湖南师范大学统计学专业，获理学博士学位，同年7月加入广东外语外贸大学。主要从事计算神经影像学研究，聚焦脑连接组方法的开发与应用。近年来在
   *Communications Biology*、*NeuroImage*、*Psychological Medicine*等国内外期刊发表论文20余篇。主持教育部人文社会科学研究青年基金、广东省哲学社会科学规划项目、广州市基础研究计划基础与应用基础研究项目、广东省普通高校特色创新项目等多项科研项目；主持2项校级质量工程项目；参与多项国家级和省部级教学与科研项目。撰写的案例入选“全国应用统计专业学位教育教学案例库”。重视学生科研训练，近三年指导学生获批国家级、省级大学生创新创业训练计划项目7项，并在国家级、省级学科竞赛中获奖近30项。
 bio_en: Ze-Qiang Linli is a lecturer and master’s supervisor. He received his PhD
@@ -62,11 +62,15 @@ research_overview_en: My research focuses on computational neuroimaging. I combi
   and machine learning methods to develop and apply approaches to brain connectome
   analysis, with a focus on the brain mechanisms underlying psychiatric disorders,
   substance dependence and language learning.
-teaching_overview_zh: 面向经管类、应用心理学等专业本科生讲授《概率论》《统计学》，面向经济统计学专业本科生讲授《R语言》，并为应用统计、统计学专业硕士研究生讲授《论文写作指导》《案例实务》等课程。
-teaching_overview_en: I teach Probability Theory and Statistics to undergraduates
-  in economics, management, applied psychology and related disciplines; R Programming
-  to undergraduates in Economic Statistics; and Academic Writing and Case Studies
-  in Applied Statistics to master’s students in Applied Statistics and Statistics.
+teaching_overview_zh: 面向经管类专业本科生讲授《概率论》，面向经管类及应用心理学专业本科生讲授《统计学》，面向数学与统计学类专业学生讲授《数理统计》，面向经济统计学专业本科生讲授《R语言》；为应用统计及统计学专业硕士研究生讲授《论文写作指导》，为应用统计专业学位硕士研究生讲授《案例实务》。
+teaching_overview_en: I teach Probability Theory to undergraduates in economics and
+  management; Statistics to undergraduates in economics, management and applied psychology;
+  Mathematical Statistics to students in mathematics and statistics disciplines; and
+  R Programming to undergraduates in Economic Statistics. At the master's level, I teach
+  Academic Writing to students in Applied Statistics and Statistics, and Case Studies
+  in Applied Statistics to students in the professional master's program in Applied Statistics.
+teaching_verified_source: Owner-confirmed course audiences, 2026-11-10
+teaching_verified_date: '2026-11-10'
 team_contact_zh: 感兴趣者可发简历至
 team_contact_en: If you are interested, please email your CV to
 about_intro_zh: 理学博士、讲师、硕士生导师

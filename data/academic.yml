@@ -147,6 +147,16 @@ honors:
   recipient: self
   selected: true
   source_date: '2026-10-11'
+- id: statistics-2026
+  title_zh: 广东省现场统计学会学术年会优秀论文二等奖
+  title_en: Second Prize for Outstanding Paper at the annual meeting of the Guangdong
+    Association for Applied Statistics
+  verified_source: Owner-confirmed award, 2026-11-10
+  verified_date: '2026-11-10'
+  period: '2026'
+  recipient: self
+  selected: false
+  source_date: '2026-11-10'
 - id: statistics-2025
   title_zh: 广东省现场统计学会学术年会优秀论文二等奖
   title_en: Second Prize for Outstanding Paper at the annual meeting of the Guangdong
@@ -375,10 +385,16 @@ service:
   verified_source: Owner-provided CV dated 2026-10-11; project list dated 2026-10-26
   verified_date: '2026-10-26'
 - id: guangdong-statistics-council
-  title_zh: 广东现场统计学会理事
+  title_zh: 广东省现场统计学会理事
   title_en: Council Member, Guangdong Association for Applied Statistics
-  verified_source: Owner confirmation, 2026-10-28
-  verified_date: '2026-10-28'
+  verified_source: Owner-confirmed association name, 2026-11-10
+  verified_date: '2026-11-10'
+- id: thesis-review
+  title_zh: 教育部学位中心硕士论文评审专家
+  title_en: Master’s thesis reviewer for the Ministry of Education’s degree evaluation
+    center
+  verified_source: Owner-provided CV dated 2026-10-11; project list dated 2026-10-26
+  verified_date: '2026-10-26'
 - id: journal-review
   title_zh: 担任Human Brain Mapping、Journal of Headache and Pain、Brain Communications、Alzheimer's
     Research & Therapy、Nicotine & Tobacco Research、npj Dementia、《放射学实践》《磁共振成像》等十余种SSCI、SCI或CSCD收录期刊的审稿人
@@ -388,12 +404,6 @@ service:
     Practice and Chinese Journal of Magnetic Resonance Imaging
   verified_source: Owner-confirmed wording, 2026-10-28
   verified_date: '2026-10-28'
-- id: thesis-review
-  title_zh: 教育部学位中心硕士论文评审专家
-  title_en: Master’s thesis reviewer for the Ministry of Education’s degree evaluation
-    center
-  verified_source: Owner-provided CV dated 2026-10-11; project list dated 2026-10-26
-  verified_date: '2026-10-26'
 - id: workshop-teaching
   title_zh: 粤港澳大湾区经济社会数据分析与可视化工作坊培训讲师
   title_en: Instructor for the Greater Bay Area workshop on socioeconomic data analysis

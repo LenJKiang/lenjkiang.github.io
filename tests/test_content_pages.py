@@ -64,7 +64,7 @@ class ContentPages(unittest.TestCase):
  def test_service_order_and_honors_chronology(self):
   import html
   academic=load(ROOT/'data/academic.yml')
-  self.assertEqual([p['id'] for p in academic['service'][:3]],['editorial-board','guangdong-statistics-council','journal-review'])
+  self.assertEqual([p['id'] for p in academic['service'][:4]],['editorial-board','guangdong-statistics-council','thesis-review','journal-review'])
   honors=academic['honors'];self.assertEqual(honors[0]['id'],'national-case')
   years=[max(map(int,re.findall(r'20\d{2}',h['period']))) for h in honors[1:]]
   self.assertEqual(years,sorted(years,reverse=True))
@@ -108,6 +108,31 @@ class ContentPages(unittest.TestCase):
       chapter=next(ch for ch in c['chapters'] if ch['id']==a['chapter_id'])
       self.assertIn(chapter['title_'+lang],text)
      if a['language']=='zh':self.assertIn('Chinese' if en else '中文',text)
+ def test_analytics_is_optional_and_course_downloads_have_stable_events(self):
+  import html
+  from html.parser import HTMLParser
+  class Downloads(HTMLParser):
+   def __init__(self,text):
+    super().__init__();self.links={};self.feed(text)
+   def handle_starttag(self,tag,attrs):
+    attrs=dict(attrs)
+    if tag=='a' and 'data-goatcounter-click' in attrs:self.links[attrs['data-goatcounter-click']]=attrs
+  cfg=load(ROOT/'config/site.yml');endpoint=cfg.get('goatcounter_endpoint')
+  for page in (ROOT/'dist').rglob('*.html'):
+   text=html.unescape(page.read_text(encoding='utf-8'))
+   if endpoint:
+    self.assertIn('data-goatcounter="'+endpoint+'"',text)
+    self.assertIn('data-analytics-origin="'+cfg['canonical_origin']+'"',text)
+    self.assertIn('src="'+cfg['base_path']+'assets/analytics.js"',text)
+   else:self.assertNotIn('assets/analytics.js',text)
+  for a in load(ROOT/'data/resources.yml'):
+   if a['resource_type']!='teaching':continue
+   for en in [False,True]:
+    text=self.read('teaching/'+a['related_publication_or_course']+'.html',en)
+    attrs=Downloads(text).links['download-'+a['resource_id']]
+    self.assertIn('download',attrs)
+    self.assertEqual(attrs['href'],cfg['base_path']+a['public_path'])
+    self.assertEqual(attrs['data-goatcounter-no-session'],'1')
  def test_team_members_and_all_student_achievements(self):
   profile=load(ROOT/'data/profile.yml');academic=load(ROOT/'data/academic.yml')
   import html

@@ -40,6 +40,9 @@ def validate(root=ROOT):
  root=Path(root); d=metadata(root); cfg=load(root/'config/site.yml'); base_path(cfg['base_path'])
  origin=cfg.get('canonical_origin')
  assert origin is None or re.fullmatch(r'https://[A-Za-z0-9.-]+(?::\d+)?',origin),'canonical_origin must be an HTTPS origin'
+ endpoint=cfg.get('goatcounter_endpoint')
+ assert endpoint is None or (isinstance(endpoint,str) and re.fullmatch(r'https://[a-z0-9][a-z0-9-]*\.goatcounter\.com/count',endpoint)),'Invalid GoatCounter endpoint'
+ if endpoint: assert origin,'Analytics requires a configured public origin'
  def required(obj,names):
   assert isinstance(obj,dict),'Expected mapping'
   for k in names: assert k in obj,f'Missing {k}'

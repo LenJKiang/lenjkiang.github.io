@@ -30,6 +30,8 @@ def build(base=None,canonical_origin=None):
  shutil.copytree(ROOT/'workspace/build/zh',candidate,ignore=shutil.ignore_patterns('en'))
  shutil.copytree(ROOT/'workspace/build/en',candidate/'en')
  (candidate/'assets').mkdir(exist_ok=True);shutil.copy2(ROOT/'website/shared/filters.js',candidate/'assets/filters.js')
+ endpoint=cfg.get('goatcounter_endpoint')
+ if endpoint:shutil.copy2(ROOT/'website/shared/analytics.js',candidate/'assets/analytics.js')
  for asset in d['resources']:
   src=ROOT/asset['public_path'];dest=candidate/asset['public_path'];dest.parent.mkdir(parents=True,exist_ok=True);shutil.copy2(src,dest)
  base=cfg['base_path'];origin=cfg.get('canonical_origin') or 'http://127.0.0.1:8000'
@@ -45,7 +47,9 @@ def build(base=None,canonical_origin=None):
   title=re.search(r'<title>(.*?)</title>',raw,re.S).group(1)
   meta+=f'<meta property="og:title" content="{escape(title,quote=True)}"><meta property="og:description" content="{escape(description,quote=True)}"><meta property="og:url" content="{escape(url,quote=True)}"><meta property="og:type" content="website"><meta property="og:locale" content="{lang}">'
   if not cfg.get('canonical_origin'):meta+='<meta name="robots" content="noindex, nofollow">'
-  raw=raw.replace('</head>',meta+'\n</head>');raw=raw.replace('</body>',f'<script src="{base}assets/filters.js" defer></script>\n</body>')
+  scripts=f'<script src="{base}assets/filters.js" defer></script>\n'
+  if endpoint:scripts+=f'<script src="{base}assets/analytics.js" data-goatcounter="{escape(endpoint,quote=True)}" data-analytics-origin="{escape(origin,quote=True)}" defer></script>\n'
+  raw=raw.replace('</head>',meta+'\n</head>');raw=raw.replace('</body>',scripts+'</body>')
   target.write_text(raw,encoding='utf-8')
  sitemap='<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">'+''.join('<url><loc>'+xml_escape(origin+base+rel)+'</loc></url>' for rel,_,_ in pages)+'</urlset>'
  (candidate/'sitemap.xml').write_text(sitemap,encoding='utf-8');(candidate/'robots.txt').write_text('User-agent: *\n'+('Allow: '+base if cfg.get('canonical_origin') else 'Disallow: /')+'\nSitemap: '+origin+base+'sitemap.xml\n',encoding='utf-8');(candidate/'.nojekyll').touch()

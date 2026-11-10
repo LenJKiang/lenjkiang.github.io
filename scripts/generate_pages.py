@@ -98,7 +98,9 @@ def generate(d, cfg, root=ROOT):
                     title = a.get('title_'+lang,a['resource_id'])
                     label = (a.get('section','')+' '+title).strip()
                     language = {'zh':txt('中文','Chinese'),'en':txt('英文','English')}.get(a['language'],a['language'])
-                    rows += f'<tr><td>{esc(label)}</td><td>{a["format"].upper()}</td><td>{esc(language)}</td><td><a href="{u}">{txt("阅读","Read")}</a> · <a href="{u}" download>{txt("下载","Download")}</a></td></tr>'
+                    event_title = (a.get('section','')+' '+a.get('title_zh',a['resource_id'])).strip()
+                    tracking = f' data-goatcounter-click="download-{a["resource_id"]}" data-goatcounter-title="{esc(event_title)}" data-goatcounter-no-session="1"'
+                    rows += f'<tr><td>{esc(label)}</td><td>{a["format"].upper()}</td><td>{esc(language)}</td><td><a href="{u}">{txt("阅读","Read")}</a> · <a href="{u}" download{tracking}>{txt("下载","Download")}</a></td></tr>'
                 chapter = chapters.get(chapter_id)
                 caption = '<caption>'+esc(val(chapter,'title'))+'</caption>' if chapter else ''
                 tables.append(f'<table data-chapter="{esc(chapter_id)}">'+caption+'<thead><tr>'+''.join('<th>'+t+'</th>' for t in [txt('小节 / 资源','Section / resource'),txt('格式','Format'),txt('语言','Language'),txt('访问','Access')])+'</tr></thead><tbody>'+rows+'</tbody></table>')

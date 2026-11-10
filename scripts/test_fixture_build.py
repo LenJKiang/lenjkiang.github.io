@@ -12,6 +12,7 @@ def run():
  for d in ['data','config','website/shared','scripts']:
   shutil.copytree(ROOT/d,folder/d,ignore=shutil.ignore_patterns('__pycache__'))
  for d in ['workspace/inbox/papers','workspace/review','workspace/reports','public/papers']:(folder/d).mkdir(parents=True,exist_ok=True)
+ cfg=load(folder/'config/site.yml');cfg['goatcounter_endpoint']=None;dump(folder/'config/site.yml',cfg)
  dump(folder/'data/resources.yml',[]);dump(folder/'config/public-assets.yml',[])
  pubs=load(folder/'data/publications.yml')
  for pub in pubs:pub.update(pdf_public_path=None,pdf_permission_status='external_link_only',pdf_version='unknown')
@@ -36,6 +37,8 @@ def run():
   assert '/public/teaching/synthetic-lecture.pdf' in course_html and '<table' in course_html and ' download' in course_html
  assert sha(folder/'dist/public/teaching/synthetic-lecture.pdf')==sha(teach)
  assert not list((ROOT/'dist').rglob('synthetic-integration.pdf')),'Synthetic file leaked into production dist'
+ assert not (folder/'dist/assets/analytics.js').exists(),'Disabled analytics emitted a tracker'
+ assert 'data-goatcounter="' not in (folder/'dist/index.html').read_text(encoding='utf-8'),'Disabled analytics loaded a service'
  report=dict(status='PASS',synthetic_only=True,pages=18,asset_sha256=sha(src),checks=['Quarto real PDF reader and download HTML in both languages','Approved PDF copied with unchanged hash','Private inbox never copied into output','Teaching lecture table, format/language and authorized PDF links in both languages','Production dist contains no fixture PDF'])
  (ROOT/'workspace/reports/fixture-integration.json').write_text(json.dumps(report,indent=2),encoding='utf-8');print(json.dumps(report))
 if __name__=='__main__':run()

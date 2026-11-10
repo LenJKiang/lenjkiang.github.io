@@ -94,6 +94,16 @@ class ResourceContracts(unittest.TestCase):
  def test_unsigned_manifest_rejected(self):
   self.approve();dump(self.r/'config/public-assets.yml',[])
   with self.assertRaises(AssertionError):validate(self.r)
+ def test_analytics_requires_verified_service_endpoint_and_public_origin(self):
+  cfg=load(self.r/'config/site.yml')
+  for endpoint in ['http://test.goatcounter.com/count','https://test.goatcounter.com.evil.example/count','https://user:secret@test.goatcounter.com/count','https://test.goatcounter.com/count?token=secret',42]:
+   with self.subTest(endpoint=endpoint):
+    dump(self.r/'config/site.yml',dict(cfg,goatcounter_endpoint=endpoint))
+    with self.assertRaises(AssertionError):validate(self.r)
+  dump(self.r/'config/site.yml',dict(cfg,goatcounter_endpoint='https://synthetic-test.goatcounter.com/count',canonical_origin=None))
+  with self.assertRaises(AssertionError):validate(self.r)
+  dump(self.r/'config/site.yml',dict(cfg,goatcounter_endpoint=None))
+  validate(self.r)
  def test_internal_maintenance_documents_cannot_be_published(self):
   from prepublish import check_source_path
   for name in ['AGENTS.md','CODEX_SPEC.md','README.md','docs/GITHUB_SETUP.md','docs/nested/guide.md','tests/fixtures/README.md']:

@@ -8,4 +8,7 @@ github_repository: lenjkiang.github.io
 suggested_repository: lenjkiang.github.io
 teaching_public_formats:
 - pdf
+
+# 仅用于站主私有后台；留空时不会加载统计服务。
+goatcounter_endpoint: https://lenjkiang.goatcounter.com/count
 github_repository_url: https://github.com/LenJKiang/lenjkiang.github.io.git

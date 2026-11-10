@@ -29,6 +29,7 @@ def validate_output(dist,cfg,d=None,root=ROOT):
  expected_html={prefix+name+'.html' for prefix in ['', 'en/'] for name in [p[0] for p in PAGES]+['publications/'+p['id'] for p in d['publications']]+['teaching/'+c['course_id'] for c in d['courses']]}
  assert set(htmls)==expected_html,'Unexpected or missing HTML page in output'
  generated_files={'styles.css','en/styles.css','search.json','en/search.json','sitemap.xml','robots.txt','.nojekyll','assets/filters.js'}
+ if cfg.get('goatcounter_endpoint'):generated_files.add('assets/analytics.js')
  for rel,page in htmls.items():
   assert page.lang==('en' if rel.startswith('en/') else 'zh-CN'),f'Wrong language {rel}'
   assert page.title and page.h1==1,f'Missing title or semantic h1 {rel}'
