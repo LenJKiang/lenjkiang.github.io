@@ -90,3 +90,23 @@
     and course PDFs on this personal academic website.'
   scope: website-public-distribution
   approved_date: '2026-10-28'
+- resource_id: probability-2-2
+  sha256: 9bd0c0ef6e8b359886030b7d96c57ef2375c73b1b3afade11fc9e48f67a55cf4
+  public_path: public/teaching/probability-2-2.pdf
+  approved_by: Ze-Qiang Linli
+  approval_reference: probability-2-2-9bd0c0ef6e8b
+  evidence: 'User instruction on 2026-11-10: publish the Probability Theory section
+    2.2 and section 2.3 course materials on this personal academic website. Publish
+    the existing PDF reading editions; preserve the original PPTX files privately.'
+  scope: website-public-distribution
+  approved_date: '2026-11-10'
+- resource_id: probability-2-3
+  sha256: f2cd794bfc722010e7ec17f006257284168029f1b8cc66c1aa7106465f31b152
+  public_path: public/teaching/probability-2-3.pdf
+  approved_by: Ze-Qiang Linli
+  approval_reference: probability-2-3-f2cd794bfc72
+  evidence: 'User instruction on 2026-11-10: publish the Probability Theory section
+    2.2 and section 2.3 course materials on this personal academic website. Publish
+    the existing PDF reading editions; preserve the original PPTX files privately.'
+  scope: website-public-distribution
+  approved_date: '2026-11-10'

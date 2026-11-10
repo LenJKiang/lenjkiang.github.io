@@ -166,3 +166,39 @@
   title_zh: 随机变量及其分布（下）
   title_en: Random variables and their distributions (Part 2)
   section: '2.1'
+- resource_id: probability-2-2
+  resource_type: teaching
+  related_publication_or_course: probability
+  sha256: 9bd0c0ef6e8b359886030b7d96c57ef2375c73b1b3afade11fc9e48f67a55cf4
+  format: pdf
+  size: 959581
+  language: zh
+  version: unknown
+  license: User-authorized distribution on this personal academic website; no general
+    reuse licence granted.
+  permission_status: approved
+  approval_reference: probability-2-2-9bd0c0ef6e8b
+  public_path: public/teaching/probability-2-2.pdf
+  last_updated: '2026-11-10'
+  chapter_id: chapter-02
+  title_zh: 随机变量的数字特征
+  title_en: Numerical characteristics of random variables
+  section: '2.2'
+- resource_id: probability-2-3
+  resource_type: teaching
+  related_publication_or_course: probability
+  sha256: f2cd794bfc722010e7ec17f006257284168029f1b8cc66c1aa7106465f31b152
+  format: pdf
+  size: 1796499
+  language: zh
+  version: unknown
+  license: User-authorized distribution on this personal academic website; no general
+    reuse licence granted.
+  permission_status: approved
+  approval_reference: probability-2-3-f2cd794bfc72
+  public_path: public/teaching/probability-2-3.pdf
+  last_updated: '2026-11-10'
+  chapter_id: chapter-02
+  title_zh: 常用的离散型分布
+  title_en: Common discrete distributions
+  section: '2.3'
